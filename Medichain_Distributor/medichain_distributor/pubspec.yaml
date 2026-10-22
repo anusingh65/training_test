@@ -1,0 +1,54 @@
+name: medichain_distributor
+description: "MediChain Distributor - Pharmaceutical Supply Chain"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Blockchain
+  web3dart: ^2.7.3
+
+  # HTTP & Networking
+  http: ^1.2.2
+
+  # Cryptography
+  crypto: ^3.0.6
+  convert: ^3.1.1
+
+  # QR Code
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^6.0.0
+
+  # Location
+  geolocator: ^13.0.0
+  geocoding: ^3.0.0
+
+  # Storage
+  shared_preferences: ^2.3.3
+
+  # UI
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+
+  # Utilities
+  intl: ^0.19.0
+
+  # State Management
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

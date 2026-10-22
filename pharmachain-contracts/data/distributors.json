@@ -1,0 +1,20 @@
+[
+  {
+    "address": "0x847B014278b9650B4A6df7F0913Ee97f73e54387",
+    "role": 2,
+    "name": "FastTrack Logistics",
+    "location": "Delhi, India"
+  },
+  {
+    "address": "0x70B2f4452cDcBd8C3126FEc29Fd3b1B23d0D7d00",
+    "role": 2,
+    "name": "MedKart Supply",
+    "location": "Bangalore, India"
+  },
+  {
+    "address": "0x1de1B7E5dCC5430D9C4Eb0a31Fa759D352785729",
+    "role": 2,
+    "name": "Global Pharma Dist",
+    "location": "Hyderabad, India"
+  }
+]

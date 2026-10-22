@@ -1,0 +1,9 @@
+{
+  "network": "sepolia",
+  "deployedAt": "2026-02-13T06:01:26.997Z",
+  "contracts": {
+    "PharmaChainCore": "0x42b07481379ce4beF2aC70BC0329bD29a2E7cb8A",
+    "PharmaChainScanner": "0x710a91E26754c126C3A1b8C0E0c5b06568d85493",
+    "PharmaChainBatch": "0x555d8aFe7FD29eC64D84e930b1Bf0265D1cC68A8"
+  }
+}

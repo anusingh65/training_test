@@ -1,0 +1,77 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [{"internalType": "string", "name": "drugId", "type": "string"}],
+      "name": "getDrug",
+      "outputs": [
+        {
+          "components": [
+            {"internalType": "string", "name": "drugId", "type": "string"},
+            {"internalType": "string", "name": "batchId", "type": "string"},
+            {"internalType": "bytes32", "name": "metadataHash", "type": "bytes32"},
+            {"internalType": "string", "name": "ipfsCid", "type": "string"},
+            {"internalType": "address", "name": "manufacturer", "type": "address"},
+            {"internalType": "uint256", "name": "registeredAt", "type": "uint256"},
+            {"internalType": "bool", "name": "flagged", "type": "bool"}
+          ],
+          "internalType": "struct PharmaChain.Drug",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{"internalType": "string", "name": "drugId", "type": "string"}],
+      "name": "getCustodyChain",
+      "outputs": [
+        {
+          "components": [
+            {"internalType": "address", "name": "from", "type": "address"},
+            {"internalType": "address", "name": "to", "type": "address"},
+            {"internalType": "string", "name": "eventType", "type": "string"},
+            {"internalType": "string", "name": "location", "type": "string"},
+            {"internalType": "uint256", "name": "timestamp", "type": "uint256"}
+          ],
+          "internalType": "struct PharmaChain.CustodyEvent[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {"internalType": "string", "name": "drugId", "type": "string"},
+        {"internalType": "address", "name": "to", "type": "address"},
+        {"internalType": "string", "name": "eventType", "type": "string"},
+        {"internalType": "string", "name": "location", "type": "string"}
+      ],
+      "name": "transferCustody",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{"internalType": "string", "name": "drugId", "type": "string"}],
+      "name": "verifyDrug",
+      "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{"internalType": "string", "name": "", "type": "string"}],
+      "name": "scanCount",
+      "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+name: medichain_pharmacy
+description: "MediChain Pharmacy - Ownership transfer and sales recording for pharmacies"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Blockchain
+  web3dart: ^2.7.3
+
+  # HTTP & Networking
+  http: ^1.2.2
+
+  # QR Code
+  mobile_scanner: ^5.2.1
+  qr_flutter: ^4.1.0
+
+  # Storage
+  shared_preferences: ^2.3.3
+
+  # UI
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+
+  # Utilities
+  intl: ^0.19.0
+
+  # State Management
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

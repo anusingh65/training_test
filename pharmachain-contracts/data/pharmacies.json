@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x40E6165a82594530207fE5F08d43ea9717a29698",
+    "role": 3,
+    "name": "Apollo Pharmacy",
+    "location": "Chennai, India"
+  },
+  {
+    "address": "0x83d82C02927f32A5BEcD940a897A05127c5caF3F",
+    "role": 3,
+    "name": "MedPlus",
+    "location": "Pune, India"
+  },
+  {
+    "address": "0x1a7c646f044D4c23140a50b640bE10D10De0A251",
+    "role": 3,
+    "name": "Wellness Forever",
+    "location": "Mumbai, India"
+  },
+  {
+    "address": "0xc4F78432279b7e4dEf2872d9df2b545BADA6C0cf",
+    "role": 3,
+    "name": "NetMeds Store",
+    "location": "Noida, India"
+  }
+]

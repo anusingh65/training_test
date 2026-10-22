@@ -1,0 +1,4183 @@
+{
+  "metadata": {
+    "description": "Indian pharmaceutical hub reference data for geographic heatmap context",
+    "version": "2.0.0",
+    "sources": [
+      "CDSCO (Central Drugs Standard Control Organisation) public alerts",
+      "Department of Pharmaceuticals, Government of India",
+      "Indian Pharmaceutical Alliance (IPA) reports",
+      "Bulk Drug Park scheme listings",
+      "State industrial development corporation records"
+    ],
+    "last_updated": "2025-06-01",
+    "coordinate_system": "WGS84"
+  },
+  "manufacturing_hubs": [
+    {
+      "name": "Hyderabad Bulk Drug Capital",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "type": "manufacturing",
+      "subtype": "bulk_drug_and_formulation",
+      "major_companies": [
+        "Dr. Reddy's Laboratories",
+        "Aurobindo Pharma",
+        "Hetero Drugs",
+        "Natco Pharma",
+        "Laurus Labs",
+        "Granules India",
+        "Shilpa Medicare"
+      ],
+      "specialization": "Active Pharmaceutical Ingredients (APIs), bulk drugs, generic formulations",
+      "notes": "Largest bulk drug manufacturing cluster in India. Genome Valley and Pharma City are key zones."
+    },
+    {
+      "name": "Baddi-Barotiwala-Nalagarh Pharma Cluster",
+      "city": "Baddi",
+      "state": "Himachal Pradesh",
+      "lat": 30.9578,
+      "lng": 76.7914,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Cipla",
+        "Cadila Healthcare (Zydus)",
+        "Mankind Pharma",
+        "Morepen Laboratories",
+        "Sun Pharmaceutical Industries",
+        "Intas Pharmaceuticals"
+      ],
+      "specialization": "Finished dosage formulations, tablets, capsules, syrups",
+      "notes": "One of Asia's largest pharma manufacturing clusters. Over 500 pharma units operate in this region."
+    },
+    {
+      "name": "Ahmedabad Pharma Hub",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "lat": 23.0225,
+      "lng": 72.5714,
+      "type": "manufacturing",
+      "subtype": "formulation_and_api",
+      "major_companies": [
+        "Zydus Lifesciences",
+        "Torrent Pharmaceuticals",
+        "Intas Pharmaceuticals",
+        "Sun Pharmaceutical Industries",
+        "Claris Lifesciences"
+      ],
+      "specialization": "Formulations, injectables, APIs, biopharmaceuticals",
+      "notes": "Gujarat accounts for roughly 33% of India's pharmaceutical production."
+    },
+    {
+      "name": "Mumbai Pharmaceutical Corridor",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "type": "manufacturing",
+      "subtype": "formulation_and_corporate_hq",
+      "major_companies": [
+        "Sun Pharmaceutical Industries",
+        "Cipla",
+        "Glenmark Pharmaceuticals",
+        "Lupin Limited",
+        "Wockhardt",
+        "Abbott India",
+        "Pfizer India"
+      ],
+      "specialization": "Corporate headquarters, R&D centers, specialty formulations",
+      "notes": "India's pharma business capital. Major corporate HQs and R&D facilities."
+    },
+    {
+      "name": "Indore Pharma Zone",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "lat": 22.7196,
+      "lng": 75.8577,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Ipca Laboratories",
+        "Lupin Limited",
+        "Glenmark Pharmaceuticals",
+        "Mylan (Viatris)"
+      ],
+      "specialization": "Anti-malarial drugs, general formulations, APIs",
+      "notes": "Pithampur industrial area near Indore hosts significant pharma manufacturing."
+    },
+    {
+      "name": "Chennai Pharma Cluster",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "type": "manufacturing",
+      "subtype": "formulation_and_api",
+      "major_companies": [
+        "Sanofi India",
+        "Orchid Pharma",
+        "Strides Pharma",
+        "Pfizer India",
+        "Kavin Healthcare"
+      ],
+      "specialization": "Sterile injectables, cephalosporins, contract manufacturing",
+      "notes": "Strong export-oriented manufacturing base. TIDCO pharma park supports the cluster."
+    },
+    {
+      "name": "Sikkim Pharma Hub",
+      "city": "Gangtok",
+      "state": "Sikkim",
+      "lat": 27.3389,
+      "lng": 88.6065,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Sun Pharmaceutical Industries",
+        "Cipla",
+        "Zydus Lifesciences",
+        "Alkem Laboratories",
+        "Unichem Laboratories",
+        "IPCA Laboratories"
+      ],
+      "specialization": "Tablets, capsules, oral liquid dosage forms",
+      "notes": "Over 30 pharma units set up due to industrial tax exemptions. Primarily in Kumrek and Rangpo."
+    },
+    {
+      "name": "Visakhapatnam Pharma SEZ",
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "lat": 17.6868,
+      "lng": 83.2185,
+      "type": "manufacturing",
+      "subtype": "api_and_formulation",
+      "major_companies": [
+        "Mylan (Viatris)",
+        "Aurobindo Pharma",
+        "Divis Laboratories",
+        "Eisai Pharmaceuticals"
+      ],
+      "specialization": "APIs, bulk drugs, export-oriented units",
+      "notes": "JNPC (Jawaharlal Nehru Pharma City) is a dedicated pharma SEZ."
+    },
+    {
+      "name": "Bengaluru Biopharma Hub",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "type": "manufacturing",
+      "subtype": "biopharma_and_rd",
+      "major_companies": [
+        "Biocon",
+        "Strides Pharma",
+        "Micro Labs",
+        "AstraZeneca India",
+        "Jubilant Biosys"
+      ],
+      "specialization": "Biopharmaceuticals, biosimilars, R&D, clinical research",
+      "notes": "India's biotech capital. Largest number of USFDA-approved biopharma facilities."
+    },
+    {
+      "name": "Goa Pharma Manufacturing Zone",
+      "city": "Goa",
+      "state": "Goa",
+      "lat": 15.4909,
+      "lng": 73.8278,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Sanofi India",
+        "Aventis Pharma",
+        "Glenmark Pharmaceuticals",
+        "Unichem Laboratories"
+      ],
+      "specialization": "Formulations, export-oriented units",
+      "notes": "Pilerne and Verna industrial estates house major pharma plants."
+    },
+    {
+      "name": "Haridwar-Roorkee Pharma Belt",
+      "city": "Haridwar",
+      "state": "Uttarakhand",
+      "lat": 29.9457,
+      "lng": 78.1642,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Dabur",
+        "Patanjali Ayurved",
+        "Mankind Pharma",
+        "Alkem Laboratories"
+      ],
+      "specialization": "FMCG pharma, ayurvedic formulations, OTC products",
+      "notes": "SIDCUL industrial estate hosts pharma and FMCG manufacturing."
+    },
+    {
+      "name": "Ankleshwar-Vadodara Chemical-Pharma Corridor",
+      "city": "Ankleshwar",
+      "state": "Gujarat",
+      "lat": 21.6264,
+      "lng": 73.0153,
+      "type": "manufacturing",
+      "subtype": "api_and_intermediates",
+      "major_companies": [
+        "Alembic Pharmaceuticals",
+        "Sun Pharma Advanced Research",
+        "Aarti Industries"
+      ],
+      "specialization": "Pharmaceutical intermediates, APIs, chemical synthesis",
+      "notes": "Part of the Gujarat industrial corridor. Strong chemical-to-pharma integration."
+    },
+    {
+      "name": "Kolkata Pharma Manufacturing Zone",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Albert David",
+        "Emami",
+        "Panacea Biotec",
+        "Nicholas Piramal"
+      ],
+      "specialization": "Formulations, traditional medicines, injectables",
+      "notes": "Eastern India's primary manufacturing base. Falta SEZ has pharma units."
+    },
+    {
+      "name": "Dehradun-Selaqui Pharma Cluster",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "lat": 30.3165,
+      "lng": 78.0322,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Himalaya Drug Company",
+        "Shree Baidyanath",
+        "Marica Ltd"
+      ],
+      "specialization": "Herbal formulations, ayurvedic products, nutraceuticals",
+      "notes": "Selaqui industrial area hosts pharma and herbal medicine manufacturing."
+    },
+    {
+      "name": "Aurangabad Pharma Hub",
+      "city": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8762,
+      "lng": 75.3433,
+      "type": "manufacturing",
+      "subtype": "formulation_and_api",
+      "major_companies": [
+        "Wockhardt",
+        "Lupin Limited",
+        "Ajanta Pharma",
+        "Endurance Technologies"
+      ],
+      "specialization": "Formulations, dermatology products, ophthalmic preparations",
+      "notes": "MIDC Waluj and Chikalthana industrial areas host pharma manufacturing."
+    },
+    {
+      "name": "Vadodara Pharma Cluster",
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "lat": 22.3072,
+      "lng": 73.1812,
+      "type": "manufacturing",
+      "subtype": "formulation_and_api",
+      "major_companies": [
+        "Sun Pharma",
+        "Alembic Pharmaceuticals",
+        "Sterling Biotech"
+      ],
+      "specialization": "APIs, formulations, biotech products",
+      "notes": "Savli and Makarpura GIDC estates host pharma units. Strong API production base."
+    },
+    {
+      "name": "Puducherry Pharma Zone",
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "lat": 11.9416,
+      "lng": 79.8083,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Tablets India",
+        "Aravind Eye Care",
+        "Pharma Zone Puducherry"
+      ],
+      "specialization": "Ophthalmic formulations, general formulations",
+      "notes": "Tax incentives attracted pharma manufacturing. Mettupalayam industrial area."
+    },
+    {
+      "name": "Mysuru Pharma Manufacturing",
+      "city": "Mysuru",
+      "state": "Karnataka",
+      "lat": 12.2958,
+      "lng": 76.6394,
+      "type": "manufacturing",
+      "subtype": "formulation_and_api",
+      "major_companies": [
+        "Jubilant Life Sciences",
+        "Strides Pharma",
+        "Nanjangud Industrial Area units"
+      ],
+      "specialization": "APIs, formulations, fine chemicals",
+      "notes": "Nanjangud and Belagola industrial areas host pharma and fine chemical units."
+    },
+    {
+      "name": "Mohali-Chandigarh Pharma Belt",
+      "city": "Mohali",
+      "state": "Punjab",
+      "lat": 30.7046,
+      "lng": 76.7179,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Panacea Biotec",
+        "Ind-Swift Laboratories",
+        "Zuventus Healthcare"
+      ],
+      "specialization": "Vaccines, formulations, research",
+      "notes": "IT and pharma hub in Punjab. Ind-Swift has major manufacturing here."
+    },
+    {
+      "name": "Daman Pharma Zone",
+      "city": "Daman",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "lat": 20.3974,
+      "lng": 72.8328,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Ajanta Pharma",
+        "Blue Cross Laboratories",
+        "FDC Limited"
+      ],
+      "specialization": "Formulations, OTC products, export units",
+      "notes": "Tax-free zone attracted many pharma SMEs. Over 100 pharma units."
+    },
+    {
+      "name": "Vapi-Silvassa Pharma Corridor",
+      "city": "Vapi",
+      "state": "Gujarat",
+      "lat": 20.3714,
+      "lng": 72.9059,
+      "type": "manufacturing",
+      "subtype": "api_and_formulation",
+      "major_companies": [
+        "Atul Ltd Pharma",
+        "Hikal Ltd",
+        "Suven Pharmaceuticals"
+      ],
+      "specialization": "APIs, intermediates, contract manufacturing",
+      "notes": "Dense pharma and chemical manufacturing cluster near Silvassa."
+    },
+    {
+      "name": "Jammu Pharma Manufacturing",
+      "city": "Jammu",
+      "state": "Jammu & Kashmir",
+      "lat": 32.7266,
+      "lng": 74.857,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Cipla",
+        "IIFL Pharma units",
+        "Local SMEs"
+      ],
+      "specialization": "Formulations, ayurvedic products",
+      "notes": "Industrial growth centre benefits from central government subsidies. Bari Brahmana area."
+    },
+    {
+      "name": "Kalyani-Falta Pharma SEZ",
+      "city": "Kalyani",
+      "state": "West Bengal",
+      "lat": 22.975,
+      "lng": 88.4344,
+      "type": "manufacturing",
+      "subtype": "api_and_formulation",
+      "major_companies": [
+        "Dey's Medical",
+        "East India Pharmaceutical Works"
+      ],
+      "specialization": "APIs, traditional formulations, diagnostics",
+      "notes": "Kalyani growth centre and Falta SEZ host pharma manufacturing."
+    },
+    {
+      "name": "Paonta Sahib Pharma Cluster",
+      "city": "Paonta Sahib",
+      "state": "Himachal Pradesh",
+      "lat": 30.436,
+      "lng": 77.6244,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Cadila Healthcare",
+        "Alkem Laboratories",
+        "Micro Labs"
+      ],
+      "specialization": "Tablets, capsules, oral dosage forms",
+      "notes": "Secondary pharma cluster in Himachal Pradesh after Baddi. Tax incentive driven."
+    },
+    {
+      "name": "Tarapur Pharma Manufacturing",
+      "city": "Tarapur",
+      "state": "Maharashtra",
+      "lat": 19.86,
+      "lng": 72.68,
+      "type": "manufacturing",
+      "subtype": "api_and_formulation",
+      "major_companies": [
+        "Aarti Drugs",
+        "Hikal Limited",
+        "Vinati Organics"
+      ],
+      "specialization": "APIs, pharmaceutical intermediates, specialty chemicals",
+      "notes": "MIDC Tarapur is one of Asia's largest industrial estates with significant pharma presence."
+    },
+    {
+      "name": "Navi Mumbai JNPT Pharma Zone",
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "lat": 19.033,
+      "lng": 73.0297,
+      "type": "manufacturing",
+      "subtype": "formulation_and_logistics",
+      "major_companies": [
+        "Reliance Life Sciences",
+        "Laurus Labs warehouse",
+        "Hetero export hub"
+      ],
+      "specialization": "Export formulations, cold chain logistics, warehousing",
+      "notes": "JNPT proximity makes this a major pharma export staging area."
+    },
+    {
+      "name": "Pantnagar Pharma Belt",
+      "city": "Pantnagar",
+      "state": "Uttarakhand",
+      "lat": 29.0225,
+      "lng": 79.4717,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Mankind Pharma",
+        "Torrent Pharmaceuticals",
+        "Intas"
+      ],
+      "specialization": "Formulations, OTC products",
+      "notes": "IIE Pantnagar hosts pharma units attracted by Uttarakhand industrial policy incentives."
+    },
+    {
+      "name": "Kala Amb Pharma Zone",
+      "city": "Kala Amb",
+      "state": "Himachal Pradesh",
+      "lat": 30.51,
+      "lng": 77.28,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Macleods Pharmaceuticals",
+        "Wallace Pharma"
+      ],
+      "specialization": "Tablets, liquid orals, ointments",
+      "notes": "Satellite pharma cluster near Baddi. Over 50 pharma units."
+    },
+    {
+      "name": "Hyderabad Genome Valley",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "lat": 17.5449,
+      "lng": 78.3843,
+      "type": "manufacturing",
+      "subtype": "biopharma",
+      "major_companies": [
+        "Bharat Biotech",
+        "Biological E",
+        "Indian Immunologicals",
+        "Shantha Biotechnics"
+      ],
+      "specialization": "Vaccines, biologics, biosimilars",
+      "notes": "India's premier vaccine manufacturing cluster. Bharat Biotech (Covaxin) and Biological E are headquartered here."
+    },
+    {
+      "name": "Cuddalore-SIPCOT Pharma",
+      "city": "Cuddalore",
+      "state": "Tamil Nadu",
+      "lat": 11.748,
+      "lng": 79.7714,
+      "type": "manufacturing",
+      "subtype": "api_and_intermediates",
+      "major_companies": [
+        "SPIC Pharma",
+        "Orchid Pharma unit"
+      ],
+      "specialization": "APIs, pharmaceutical intermediates",
+      "notes": "SIPCOT industrial complex hosts API and chemical pharma manufacturing."
+    }
+  ],
+  "distribution_hubs": [
+    {
+      "name": "Delhi Pharma Distribution Hub",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "type": "distribution",
+      "subtype": "wholesale_and_retail",
+      "key_markets": [
+        "Bhagirath Palace (Asia's largest pharmaceutical market)",
+        "Chandni Chowk wholesale market",
+        "Okhla pharmaceutical distribution zone"
+      ],
+      "notes": "Bhagirath Palace handles an estimated 60% of North India's drug distribution."
+    },
+    {
+      "name": "Mumbai Drug Distribution Network",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "lat": 18.9667,
+      "lng": 72.8333,
+      "type": "distribution",
+      "subtype": "wholesale_and_export",
+      "key_markets": [
+        "Princess Street pharmaceutical market",
+        "Crawford Market area",
+        "JNPT for pharma exports"
+      ],
+      "notes": "Major pharma export hub. C&F agent networks radiate from Mumbai."
+    },
+    {
+      "name": "Kolkata Eastern Distribution Hub",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Burrabazar pharmaceutical wholesale market",
+        "Bagree Market"
+      ],
+      "notes": "Primary distribution hub for Eastern India and North-East states."
+    },
+    {
+      "name": "Chennai Southern Distribution Center",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "lat": 13.0569,
+      "lng": 80.2425,
+      "type": "distribution",
+      "subtype": "wholesale_and_export",
+      "key_markets": [
+        "Thambuchetty Street pharma market",
+        "Parry's Corner wholesale zone",
+        "Chennai Port for pharma exports"
+      ],
+      "notes": "Key distribution center for South India. Major pharma export terminal."
+    },
+    {
+      "name": "Ahmedabad Western Distribution Hub",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "lat": 23.03,
+      "lng": 72.58,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Kalupur pharma wholesale market",
+        "Sarangpur distribution area"
+      ],
+      "notes": "Primary redistribution hub for Gujarat's pharma manufacturing output."
+    },
+    {
+      "name": "Lucknow UP Distribution Center",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "lat": 26.8467,
+      "lng": 80.9462,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Aminabad pharma market",
+        "Chowk wholesale area"
+      ],
+      "notes": "Central distribution point for Uttar Pradesh, India's most populous state."
+    },
+    {
+      "name": "Nagpur Central India Hub",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1458,
+      "lng": 79.0882,
+      "type": "distribution",
+      "subtype": "redistribution",
+      "key_markets": [
+        "Itwari wholesale market",
+        "Gandhibagh distribution zone"
+      ],
+      "notes": "Geographic center of India. Redistribution hub for Central Indian states."
+    },
+    {
+      "name": "Patna Bihar Distribution Hub",
+      "city": "Patna",
+      "state": "Bihar",
+      "lat": 25.6093,
+      "lng": 85.1376,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Govind Mitra Road pharma market"
+      ],
+      "notes": "Serves Bihar and parts of Jharkhand. Enhanced supply chain surveillance needed."
+    },
+    {
+      "name": "Jaipur Rajasthan Distribution Hub",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Chaura Rasta pharma market",
+        "Johari Bazaar wholesale"
+      ],
+      "notes": "Primary distribution hub for Rajasthan. Gateway for western India supply chains."
+    },
+    {
+      "name": "Pune Western Maharashtra Distribution",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5204,
+      "lng": 73.8567,
+      "type": "distribution",
+      "subtype": "wholesale_and_cnf",
+      "key_markets": [
+        "Budhwar Peth pharma wholesale",
+        "Hinjewadi logistics zone"
+      ],
+      "notes": "Major C&F hub for western Maharashtra. Growing pharma logistics cluster."
+    },
+    {
+      "name": "Hyderabad Telangana Distribution",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "type": "distribution",
+      "subtype": "wholesale_and_export",
+      "key_markets": [
+        "Begum Bazaar pharma wholesale",
+        "Gowliguda distribution zone"
+      ],
+      "notes": "Dual manufacturing and distribution hub. Direct supply from local API manufacturers."
+    },
+    {
+      "name": "Bhubaneswar Eastern Distribution",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "lat": 20.2961,
+      "lng": 85.8245,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Unit-2 Market pharma wholesale"
+      ],
+      "notes": "Serves Odisha and southern Jharkhand. Growing pharma distribution hub."
+    },
+    {
+      "name": "Kochi Kerala Distribution Hub",
+      "city": "Kochi",
+      "state": "Kerala",
+      "lat": 9.9312,
+      "lng": 76.2673,
+      "type": "distribution",
+      "subtype": "wholesale_and_import",
+      "key_markets": [
+        "Ernakulam pharma wholesale market",
+        "Kochi Port Trust imports"
+      ],
+      "notes": "Kerala's primary pharma distribution center. Cochin Port handles API imports."
+    },
+    {
+      "name": "Chandigarh Tri-City Distribution",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "lat": 30.7333,
+      "lng": 76.7794,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Sector 22 pharma wholesale",
+        "Industrial Area Phase I distribution"
+      ],
+      "notes": "Serves Punjab, Haryana, and Himachal Pradesh. Close to Baddi manufacturing cluster."
+    },
+    {
+      "name": "Guwahati North-East Distribution Hub",
+      "city": "Guwahati",
+      "state": "Assam",
+      "lat": 26.1445,
+      "lng": 91.7362,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Fancy Bazaar pharma wholesale",
+        "Paltan Bazaar distribution"
+      ],
+      "notes": "Gateway distribution hub for all 8 North-Eastern states. Only major redistribution point."
+    },
+    {
+      "name": "Indore Central India Distribution",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "lat": 22.7196,
+      "lng": 75.8577,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Rajwada area pharma wholesale",
+        "Scheme 54 distribution zone"
+      ],
+      "notes": "Serves Madhya Pradesh and parts of Rajasthan. Close to Pithampur manufacturing."
+    },
+    {
+      "name": "Visakhapatnam AP Distribution Hub",
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "lat": 17.6868,
+      "lng": 83.2185,
+      "type": "distribution",
+      "subtype": "wholesale_and_export",
+      "key_markets": [
+        "One Town pharma wholesale",
+        "Vizag Port pharma exports"
+      ],
+      "notes": "Serves northern Andhra Pradesh. Proximity to Pharma City manufacturing."
+    },
+    {
+      "name": "Coimbatore TN Distribution",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "lat": 11.0168,
+      "lng": 76.9558,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Town Hall area pharma wholesale",
+        "Gandhipuram distribution"
+      ],
+      "notes": "Serves western Tamil Nadu and parts of Kerala. Major secondary distribution point."
+    },
+    {
+      "name": "Varanasi Eastern UP Distribution",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "lat": 25.3176,
+      "lng": 82.9739,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Godowlia pharma market",
+        "Sigra wholesale zone"
+      ],
+      "notes": "Key distribution point for eastern UP and northern Bihar. High-demand area."
+    },
+    {
+      "name": "Ranchi Jharkhand Distribution",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "lat": 23.3441,
+      "lng": 85.3096,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Upper Bazaar pharma wholesale"
+      ],
+      "notes": "Only significant pharma distribution hub for Jharkhand. Serves tribal areas."
+    },
+    {
+      "name": "Surat Gujarat Secondary Distribution",
+      "city": "Surat",
+      "state": "Gujarat",
+      "lat": 21.1702,
+      "lng": 72.8311,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Ring Road pharma wholesale",
+        "Udhna industrial distribution"
+      ],
+      "notes": "Fast-growing distribution hub. Serves southern Gujarat."
+    },
+    {
+      "name": "Kanpur UP Western Distribution",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "lat": 26.4499,
+      "lng": 80.3319,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Naya Ganj pharma wholesale",
+        "Swaroop Nagar distribution"
+      ],
+      "notes": "Major distribution hub for western UP. Also a known counterfeit risk area."
+    },
+    {
+      "name": "Thiruvananthapuram Kerala Southern",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "lat": 8.5241,
+      "lng": 76.9366,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Chalai Bazaar pharma wholesale",
+        "Palayam distribution"
+      ],
+      "notes": "Southern Kerala distribution center. Gateway for southern tip of India."
+    },
+    {
+      "name": "Agartala Tripura Distribution",
+      "city": "Agartala",
+      "state": "Tripura",
+      "lat": 23.8315,
+      "lng": 91.2868,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Battala market pharma wholesale"
+      ],
+      "notes": "Isolated NE state distribution hub. Dependent on Guwahati and Kolkata supply chains."
+    },
+    {
+      "name": "Shillong Meghalaya Distribution",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "lat": 25.5788,
+      "lng": 91.8933,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Police Bazaar pharma wholesale"
+      ],
+      "notes": "Serves Meghalaya. Depends on Guwahati hub for supply."
+    },
+    {
+      "name": "Dimapur Nagaland Distribution",
+      "city": "Dimapur",
+      "state": "Nagaland",
+      "lat": 25.9042,
+      "lng": 93.727,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Hong Kong Market pharma section"
+      ],
+      "notes": "Commercial capital of Nagaland. Primary pharma entry point for the state."
+    },
+    {
+      "name": "Gurugram-Faridabad NCR Distribution",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "lat": 28.4595,
+      "lng": 77.0266,
+      "type": "distribution",
+      "subtype": "wholesale_and_cnf",
+      "key_markets": [
+        "Sector 18 pharma wholesale",
+        "IMT Manesar logistics"
+      ],
+      "notes": "Major C&F agent hub serving NCR and northern Haryana. Pharma logistics corridor."
+    },
+    {
+      "name": "Ambala Haryana Distribution Hub",
+      "city": "Ambala",
+      "state": "Haryana",
+      "lat": 30.3782,
+      "lng": 76.7767,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Ambala Cantt pharma wholesale",
+        "Ambala City distribution"
+      ],
+      "notes": "Gateway distribution between Punjab manufacturing belt and Delhi-NCR markets."
+    },
+    {
+      "name": "Gaya Bihar Southern Distribution",
+      "city": "Gaya",
+      "state": "Bihar",
+      "lat": 24.7914,
+      "lng": 84.9994,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Gaya Town pharma wholesale"
+      ],
+      "notes": "Serves southern Bihar and northern Jharkhand. Pilgrimage town with seasonal demand spikes."
+    },
+    {
+      "name": "Kozhikode North Kerala Distribution",
+      "city": "Kozhikode",
+      "state": "Kerala",
+      "lat": 11.2588,
+      "lng": 75.7804,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Mittai Theruvu pharma wholesale",
+        "Kozhikode medical college area"
+      ],
+      "notes": "Serves Malabar region of northern Kerala. Major hospital cluster drives demand."
+    },
+    {
+      "name": "Cuttack Odisha Distribution Hub",
+      "city": "Cuttack",
+      "state": "Odisha",
+      "lat": 20.4625,
+      "lng": 85.883,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Cuttack Chandi wholesale",
+        "Badambadi distribution"
+      ],
+      "notes": "Traditional commercial capital of Odisha. Works in tandem with Bhubaneswar hub."
+    },
+    {
+      "name": "Kota Rajasthan Southern Distribution",
+      "city": "Kota",
+      "state": "Rajasthan",
+      "lat": 25.2138,
+      "lng": 75.8648,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Nayapura pharma wholesale"
+      ],
+      "notes": "Serves southeastern Rajasthan. Student population drives high pharma demand."
+    },
+    {
+      "name": "Jabalpur MP Eastern Distribution",
+      "city": "Jabalpur",
+      "state": "Madhya Pradesh",
+      "lat": 23.1815,
+      "lng": 79.9864,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Wright Town pharma wholesale",
+        "Madan Mahal distribution"
+      ],
+      "notes": "Eastern MP distribution center. Serves Jabalpur, Katni, Satna, Rewa districts."
+    }
+  ],
+  "pharmacy_locations": [
+    {
+      "name": "Apollo Pharmacy, Delhi",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.63,
+      "lng": 77.22
+    },
+    {
+      "name": "MedPlus, Hyderabad",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "lat": 17.44,
+      "lng": 78.49
+    },
+    {
+      "name": "Netmeds Store, Chennai",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "lat": 13.06,
+      "lng": 80.25
+    },
+    {
+      "name": "Jan Aushadhi, Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "lat": 26.85,
+      "lng": 80.95
+    },
+    {
+      "name": "Wellness Forever, Mumbai",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "lat": 19.08,
+      "lng": 72.88
+    },
+    {
+      "name": "Apollo Pharmacy, Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "lat": 12.98,
+      "lng": 77.59
+    },
+    {
+      "name": "MedPlus, Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.52,
+      "lng": 73.86
+    },
+    {
+      "name": "PharmEasy Hub, Ahmedabad",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "lat": 23.04,
+      "lng": 72.57
+    },
+    {
+      "name": "Jan Aushadhi, Patna",
+      "city": "Patna",
+      "state": "Bihar",
+      "lat": 25.62,
+      "lng": 85.14
+    },
+    {
+      "name": "1mg Store, Jaipur",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "lat": 26.92,
+      "lng": 75.79
+    },
+    {
+      "name": "Netmeds Store, Kolkata",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "lat": 22.57,
+      "lng": 88.37
+    },
+    {
+      "name": "Apollo Pharmacy, Chandigarh",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "lat": 30.73,
+      "lng": 76.78
+    },
+    {
+      "name": "MedPlus, Visakhapatnam",
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "lat": 17.7,
+      "lng": 83.3
+    },
+    {
+      "name": "Wellness Forever, Goa",
+      "city": "Goa",
+      "state": "Goa",
+      "lat": 15.5,
+      "lng": 73.83
+    },
+    {
+      "name": "Jan Aushadhi, Bhopal",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "lat": 23.26,
+      "lng": 77.41
+    },
+    {
+      "name": "PharmEasy Hub, Nagpur",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.15,
+      "lng": 79.09
+    },
+    {
+      "name": "1mg Store, Indore",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "lat": 22.72,
+      "lng": 75.86
+    },
+    {
+      "name": "Apollo Pharmacy, Kochi",
+      "city": "Kochi",
+      "state": "Kerala",
+      "lat": 9.93,
+      "lng": 76.27
+    },
+    {
+      "name": "Netmeds Store, Coimbatore",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "lat": 11.02,
+      "lng": 76.96
+    },
+    {
+      "name": "MedPlus, Varanasi",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "lat": 25.32,
+      "lng": 83.01
+    },
+    {
+      "name": "Apollo Pharmacy, Thiruvananthapuram",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "lat": 8.5241,
+      "lng": 76.9366
+    },
+    {
+      "name": "MedPlus, Vijayawada",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "lat": 16.5062,
+      "lng": 80.648
+    },
+    {
+      "name": "Jan Aushadhi, Ranchi",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "lat": 23.3441,
+      "lng": 85.3096
+    },
+    {
+      "name": "Wellness Forever, Thane",
+      "city": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.2183,
+      "lng": 72.9781
+    },
+    {
+      "name": "Apollo Pharmacy, Madurai",
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "lat": 9.9252,
+      "lng": 78.1198
+    },
+    {
+      "name": "PharmEasy Hub, Surat",
+      "city": "Surat",
+      "state": "Gujarat",
+      "lat": 21.1702,
+      "lng": 72.8311
+    },
+    {
+      "name": "1mg Store, Kanpur",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "lat": 26.4499,
+      "lng": 80.3319
+    },
+    {
+      "name": "MedPlus, Warangal",
+      "city": "Warangal",
+      "state": "Telangana",
+      "lat": 17.9784,
+      "lng": 79.5941
+    },
+    {
+      "name": "Netmeds Store, Guwahati",
+      "city": "Guwahati",
+      "state": "Assam",
+      "lat": 26.1445,
+      "lng": 91.7362
+    },
+    {
+      "name": "Apollo Pharmacy, Dehradun",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "lat": 30.3165,
+      "lng": 78.0322
+    },
+    {
+      "name": "Jan Aushadhi, Raipur",
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "lat": 21.2514,
+      "lng": 81.6296
+    },
+    {
+      "name": "PharmEasy Hub, Rajkot",
+      "city": "Rajkot",
+      "state": "Gujarat",
+      "lat": 22.3039,
+      "lng": 70.8022
+    },
+    {
+      "name": "1mg Store, Agra",
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "lat": 27.1767,
+      "lng": 78.0081
+    },
+    {
+      "name": "MedPlus, Nellore",
+      "city": "Nellore",
+      "state": "Andhra Pradesh",
+      "lat": 14.4426,
+      "lng": 79.9865
+    },
+    {
+      "name": "Apollo Pharmacy, Mangaluru",
+      "city": "Mangaluru",
+      "state": "Karnataka",
+      "lat": 12.9141,
+      "lng": 74.856
+    },
+    {
+      "name": "Wellness Forever, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "lat": 20.0063,
+      "lng": 73.79
+    },
+    {
+      "name": "Jan Aushadhi, Allahabad",
+      "city": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "lat": 25.4358,
+      "lng": 81.8463
+    },
+    {
+      "name": "Netmeds Store, Hubli",
+      "city": "Hubli",
+      "state": "Karnataka",
+      "lat": 15.3647,
+      "lng": 75.124
+    },
+    {
+      "name": "Apollo Pharmacy, Bhubaneswar",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "lat": 20.2961,
+      "lng": 85.8245
+    },
+    {
+      "name": "MedPlus, Tirupati",
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "lat": 13.6288,
+      "lng": 79.4192
+    },
+    {
+      "name": "1mg Store, Jodhpur",
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "lat": 26.2389,
+      "lng": 73.0243
+    },
+    {
+      "name": "Jan Aushadhi, Gwalior",
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "lat": 26.2183,
+      "lng": 78.1828
+    },
+    {
+      "name": "PharmEasy Hub, Udaipur",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "lat": 24.5854,
+      "lng": 73.7125
+    },
+    {
+      "name": "Apollo Pharmacy, Siliguri",
+      "city": "Siliguri",
+      "state": "West Bengal",
+      "lat": 26.7271,
+      "lng": 88.3953
+    },
+    {
+      "name": "MedPlus, Salem",
+      "city": "Salem",
+      "state": "Tamil Nadu",
+      "lat": 11.6643,
+      "lng": 78.146
+    },
+    {
+      "name": "Wellness Forever, Kolhapur",
+      "city": "Kolhapur",
+      "state": "Maharashtra",
+      "lat": 16.705,
+      "lng": 74.2433
+    },
+    {
+      "name": "Netmeds Store, Imphal",
+      "city": "Imphal",
+      "state": "Manipur",
+      "lat": 24.817,
+      "lng": 93.9368
+    },
+    {
+      "name": "Jan Aushadhi, Jammu",
+      "city": "Jammu",
+      "state": "Jammu & Kashmir",
+      "lat": 32.7266,
+      "lng": 74.857
+    },
+    {
+      "name": "Apollo Pharmacy, Amritsar",
+      "city": "Amritsar",
+      "state": "Punjab",
+      "lat": 31.634,
+      "lng": 74.8723
+    },
+    {
+      "name": "1mg Store, Meerut",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "lat": 28.9845,
+      "lng": 77.7064
+    },
+    {
+      "name": "Apollo Pharmacy, Ludhiana",
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "lat": 30.901,
+      "lng": 75.8573
+    },
+    {
+      "name": "MedPlus, Guntur",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "lat": 16.3067,
+      "lng": 80.4365
+    },
+    {
+      "name": "Jan Aushadhi, Gorakhpur",
+      "city": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "lat": 26.7606,
+      "lng": 83.3732
+    },
+    {
+      "name": "Netmeds Store, Tiruchirappalli",
+      "city": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "lat": 10.7905,
+      "lng": 78.7047
+    },
+    {
+      "name": "Apollo Pharmacy, Mysuru",
+      "city": "Mysuru",
+      "state": "Karnataka",
+      "lat": 12.2958,
+      "lng": 76.6394
+    },
+    {
+      "name": "PharmEasy Hub, Vadodara",
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "lat": 22.3072,
+      "lng": 73.1812
+    },
+    {
+      "name": "Wellness Forever, Aurangabad",
+      "city": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8762,
+      "lng": 75.3433
+    },
+    {
+      "name": "1mg Store, Aligarh",
+      "city": "Aligarh",
+      "state": "Uttar Pradesh",
+      "lat": 27.8974,
+      "lng": 78.088
+    },
+    {
+      "name": "MedPlus, Kakinada",
+      "city": "Kakinada",
+      "state": "Andhra Pradesh",
+      "lat": 16.9891,
+      "lng": 82.2475
+    },
+    {
+      "name": "Jan Aushadhi, Bareilly",
+      "city": "Bareilly",
+      "state": "Uttar Pradesh",
+      "lat": 28.367,
+      "lng": 79.4304
+    },
+    {
+      "name": "Apollo Pharmacy, Belgaum",
+      "city": "Belgaum",
+      "state": "Karnataka",
+      "lat": 15.8497,
+      "lng": 74.4977
+    },
+    {
+      "name": "Netmeds Store, Agartala",
+      "city": "Agartala",
+      "state": "Tripura",
+      "lat": 23.8315,
+      "lng": 91.2868
+    },
+    {
+      "name": "PharmEasy Hub, Jalandhar",
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "lat": 31.326,
+      "lng": 75.5762
+    },
+    {
+      "name": "MedPlus, Rajahmundry",
+      "city": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "lat": 17.0005,
+      "lng": 81.804
+    },
+    {
+      "name": "1mg Store, Dehradun",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "lat": 30.3165,
+      "lng": 78.0322
+    },
+    {
+      "name": "Apollo Pharmacy, Shillong",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "lat": 25.5788,
+      "lng": 91.8933
+    },
+    {
+      "name": "Jan Aushadhi, Dhanbad",
+      "city": "Dhanbad",
+      "state": "Jharkhand",
+      "lat": 23.7957,
+      "lng": 86.4304
+    },
+    {
+      "name": "Wellness Forever, Solapur",
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6599,
+      "lng": 75.9064
+    },
+    {
+      "name": "Netmeds Store, Dimapur",
+      "city": "Dimapur",
+      "state": "Nagaland",
+      "lat": 25.9042,
+      "lng": 93.727
+    },
+    {
+      "name": "MedPlus, Tirunelveli",
+      "city": "Tirunelveli",
+      "state": "Tamil Nadu",
+      "lat": 8.7139,
+      "lng": 77.7567
+    },
+    {
+      "name": "Apollo Pharmacy, Shimla",
+      "city": "Shimla",
+      "state": "Himachal Pradesh",
+      "lat": 31.1048,
+      "lng": 77.1734
+    },
+    {
+      "name": "PharmEasy Hub, Bhavnagar",
+      "city": "Bhavnagar",
+      "state": "Gujarat",
+      "lat": 21.7645,
+      "lng": 72.1519
+    },
+    {
+      "name": "1mg Store, Muzaffarpur",
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "lat": 26.1209,
+      "lng": 85.3647
+    },
+    {
+      "name": "Jan Aushadhi, Bilaspur",
+      "city": "Bilaspur",
+      "state": "Chhattisgarh",
+      "lat": 22.0797,
+      "lng": 82.1409
+    },
+    {
+      "name": "MedPlus, Kurnool",
+      "city": "Kurnool",
+      "state": "Andhra Pradesh",
+      "lat": 15.8281,
+      "lng": 78.0373
+    },
+    {
+      "name": "Apollo Pharmacy, Aizawl",
+      "city": "Aizawl",
+      "state": "Mizoram",
+      "lat": 23.7271,
+      "lng": 92.7176
+    },
+    {
+      "name": "Netmeds Store, Tezpur",
+      "city": "Tezpur",
+      "state": "Assam",
+      "lat": 26.6338,
+      "lng": 92.7926
+    },
+    {
+      "name": "Wellness Forever, Sangli",
+      "city": "Sangli",
+      "state": "Maharashtra",
+      "lat": 16.8524,
+      "lng": 74.5815
+    },
+    {
+      "name": "PharmEasy Hub, Jamnagar",
+      "city": "Jamnagar",
+      "state": "Gujarat",
+      "lat": 22.4707,
+      "lng": 70.0577
+    },
+    {
+      "name": "1mg Store, Mathura",
+      "city": "Mathura",
+      "state": "Uttar Pradesh",
+      "lat": 27.4924,
+      "lng": 77.6737
+    },
+    {
+      "name": "Jan Aushadhi, Durgapur",
+      "city": "Durgapur",
+      "state": "West Bengal",
+      "lat": 23.5204,
+      "lng": 87.3119
+    },
+    {
+      "name": "Apollo Pharmacy, Itanagar",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "lat": 27.0844,
+      "lng": 93.6053
+    },
+    {
+      "name": "MedPlus, Erode",
+      "city": "Erode",
+      "state": "Tamil Nadu",
+      "lat": 11.341,
+      "lng": 77.7172
+    },
+    {
+      "name": "Netmeds Store, Silchar",
+      "city": "Silchar",
+      "state": "Assam",
+      "lat": 24.8333,
+      "lng": 92.7789
+    },
+    {
+      "name": "PharmEasy Hub, Anand",
+      "city": "Anand",
+      "state": "Gujarat",
+      "lat": 22.5645,
+      "lng": 72.9289
+    },
+    {
+      "name": "1mg Store, Saharanpur",
+      "city": "Saharanpur",
+      "state": "Uttar Pradesh",
+      "lat": 29.968,
+      "lng": 77.546
+    },
+    {
+      "name": "Apollo Pharmacy, Dharwad",
+      "city": "Dharwad",
+      "state": "Karnataka",
+      "lat": 15.4589,
+      "lng": 75.0078
+    },
+    {
+      "name": "Jan Aushadhi, Bokaro",
+      "city": "Bokaro",
+      "state": "Jharkhand",
+      "lat": 23.6693,
+      "lng": 86.1511
+    },
+    {
+      "name": "Wellness Forever, Ahmednagar",
+      "city": "Ahmednagar",
+      "state": "Maharashtra",
+      "lat": 19.0948,
+      "lng": 74.748
+    },
+    {
+      "name": "Apollo Pharmacy, Gurugram",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "lat": 28.4595,
+      "lng": 77.0266
+    },
+    {
+      "name": "MedPlus, Faridabad",
+      "city": "Faridabad",
+      "state": "Haryana",
+      "lat": 28.4089,
+      "lng": 77.3178
+    },
+    {
+      "name": "Jan Aushadhi, Karnal",
+      "city": "Karnal",
+      "state": "Haryana",
+      "lat": 29.6857,
+      "lng": 76.9905
+    },
+    {
+      "name": "PharmEasy Hub, Hisar",
+      "city": "Hisar",
+      "state": "Haryana",
+      "lat": 29.1492,
+      "lng": 75.7217
+    },
+    {
+      "name": "1mg Store, Rohtak",
+      "city": "Rohtak",
+      "state": "Haryana",
+      "lat": 28.8955,
+      "lng": 76.6066
+    },
+    {
+      "name": "Netmeds Store, Panipat",
+      "city": "Panipat",
+      "state": "Haryana",
+      "lat": 29.3909,
+      "lng": 76.9635
+    },
+    {
+      "name": "Apollo Pharmacy, Kozhikode",
+      "city": "Kozhikode",
+      "state": "Kerala",
+      "lat": 11.2588,
+      "lng": 75.7804
+    },
+    {
+      "name": "MedPlus, Thrissur",
+      "city": "Thrissur",
+      "state": "Kerala",
+      "lat": 10.5276,
+      "lng": 76.2144
+    },
+    {
+      "name": "Netmeds Store, Kannur",
+      "city": "Kannur",
+      "state": "Kerala",
+      "lat": 11.8745,
+      "lng": 75.3704
+    },
+    {
+      "name": "Jan Aushadhi, Palakkad",
+      "city": "Palakkad",
+      "state": "Kerala",
+      "lat": 10.7867,
+      "lng": 76.6548
+    },
+    {
+      "name": "PharmEasy Hub, Kollam",
+      "city": "Kollam",
+      "state": "Kerala",
+      "lat": 8.8932,
+      "lng": 76.6141
+    },
+    {
+      "name": "Apollo Pharmacy, Gaya",
+      "city": "Gaya",
+      "state": "Bihar",
+      "lat": 24.7914,
+      "lng": 84.9994
+    },
+    {
+      "name": "MedPlus, Bhagalpur",
+      "city": "Bhagalpur",
+      "state": "Bihar",
+      "lat": 25.2425,
+      "lng": 86.9842
+    },
+    {
+      "name": "Jan Aushadhi, Purnia",
+      "city": "Purnia",
+      "state": "Bihar",
+      "lat": 25.7771,
+      "lng": 87.4753
+    },
+    {
+      "name": "Netmeds Store, Darbhanga",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "lat": 26.1542,
+      "lng": 85.8918
+    },
+    {
+      "name": "1mg Store, Ara",
+      "city": "Ara",
+      "state": "Bihar",
+      "lat": 25.5564,
+      "lng": 84.6646
+    },
+    {
+      "name": "Apollo Pharmacy, Cuttack",
+      "city": "Cuttack",
+      "state": "Odisha",
+      "lat": 20.4625,
+      "lng": 85.883
+    },
+    {
+      "name": "MedPlus, Berhampur",
+      "city": "Berhampur",
+      "state": "Odisha",
+      "lat": 19.315,
+      "lng": 84.7941
+    },
+    {
+      "name": "Jan Aushadhi, Rourkela",
+      "city": "Rourkela",
+      "state": "Odisha",
+      "lat": 22.2604,
+      "lng": 84.8536
+    },
+    {
+      "name": "Netmeds Store, Sambalpur",
+      "city": "Sambalpur",
+      "state": "Odisha",
+      "lat": 21.4669,
+      "lng": 83.9812
+    },
+    {
+      "name": "PharmEasy Hub, Balasore",
+      "city": "Balasore",
+      "state": "Odisha",
+      "lat": 21.4934,
+      "lng": 86.9337
+    },
+    {
+      "name": "Apollo Pharmacy, Kota",
+      "city": "Kota",
+      "state": "Rajasthan",
+      "lat": 25.2138,
+      "lng": 75.8648
+    },
+    {
+      "name": "MedPlus, Ajmer",
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "lat": 26.4499,
+      "lng": 74.6399
+    },
+    {
+      "name": "Jan Aushadhi, Bikaner",
+      "city": "Bikaner",
+      "state": "Rajasthan",
+      "lat": 28.0229,
+      "lng": 73.3119
+    },
+    {
+      "name": "Netmeds Store, Sikar",
+      "city": "Sikar",
+      "state": "Rajasthan",
+      "lat": 27.6094,
+      "lng": 75.1399
+    },
+    {
+      "name": "1mg Store, Alwar",
+      "city": "Alwar",
+      "state": "Rajasthan",
+      "lat": 27.553,
+      "lng": 76.6346
+    },
+    {
+      "name": "PharmEasy Hub, Bhilwara",
+      "city": "Bhilwara",
+      "state": "Rajasthan",
+      "lat": 25.3407,
+      "lng": 74.6313
+    },
+    {
+      "name": "Apollo Pharmacy, Jabalpur",
+      "city": "Jabalpur",
+      "state": "Madhya Pradesh",
+      "lat": 23.1815,
+      "lng": 79.9864
+    },
+    {
+      "name": "MedPlus, Ujjain",
+      "city": "Ujjain",
+      "state": "Madhya Pradesh",
+      "lat": 23.1765,
+      "lng": 75.7885
+    },
+    {
+      "name": "Jan Aushadhi, Sagar",
+      "city": "Sagar",
+      "state": "Madhya Pradesh",
+      "lat": 23.8388,
+      "lng": 78.7378
+    },
+    {
+      "name": "Netmeds Store, Satna",
+      "city": "Satna",
+      "state": "Madhya Pradesh",
+      "lat": 24.5004,
+      "lng": 80.8322
+    },
+    {
+      "name": "1mg Store, Rewa",
+      "city": "Rewa",
+      "state": "Madhya Pradesh",
+      "lat": 24.5362,
+      "lng": 81.3037
+    },
+    {
+      "name": "Apollo Pharmacy, Karimnagar",
+      "city": "Karimnagar",
+      "state": "Telangana",
+      "lat": 18.4386,
+      "lng": 79.1288
+    },
+    {
+      "name": "MedPlus, Nizamabad",
+      "city": "Nizamabad",
+      "state": "Telangana",
+      "lat": 18.6725,
+      "lng": 78.0941
+    },
+    {
+      "name": "Jan Aushadhi, Khammam",
+      "city": "Khammam",
+      "state": "Telangana",
+      "lat": 17.2473,
+      "lng": 80.1514
+    },
+    {
+      "name": "Netmeds Store, Mahbubnagar",
+      "city": "Mahbubnagar",
+      "state": "Telangana",
+      "lat": 16.7488,
+      "lng": 78.0035
+    },
+    {
+      "name": "Apollo Pharmacy, Durg-Bhilai",
+      "city": "Durg",
+      "state": "Chhattisgarh",
+      "lat": 21.1904,
+      "lng": 81.2849
+    },
+    {
+      "name": "MedPlus, Korba",
+      "city": "Korba",
+      "state": "Chhattisgarh",
+      "lat": 22.3595,
+      "lng": 82.7501
+    },
+    {
+      "name": "Jan Aushadhi, Rajnandgaon",
+      "city": "Rajnandgaon",
+      "state": "Chhattisgarh",
+      "lat": 21.0974,
+      "lng": 81.029
+    },
+    {
+      "name": "Apollo Pharmacy, Jorhat",
+      "city": "Jorhat",
+      "state": "Assam",
+      "lat": 26.7509,
+      "lng": 94.2037
+    },
+    {
+      "name": "MedPlus, Dibrugarh",
+      "city": "Dibrugarh",
+      "state": "Assam",
+      "lat": 27.4728,
+      "lng": 94.912
+    },
+    {
+      "name": "Jan Aushadhi, Nagaon",
+      "city": "Nagaon",
+      "state": "Assam",
+      "lat": 26.3464,
+      "lng": 92.684
+    },
+    {
+      "name": "Netmeds Store, Bongaigaon",
+      "city": "Bongaigaon",
+      "state": "Assam",
+      "lat": 26.4792,
+      "lng": 90.5584
+    },
+    {
+      "name": "Apollo Pharmacy, Gangtok",
+      "city": "Gangtok",
+      "state": "Sikkim",
+      "lat": 27.3389,
+      "lng": 88.6065
+    },
+    {
+      "name": "MedPlus, Namchi",
+      "city": "Namchi",
+      "state": "Sikkim",
+      "lat": 27.1667,
+      "lng": 88.35
+    },
+    {
+      "name": "Jan Aushadhi, Thoubal",
+      "city": "Thoubal",
+      "state": "Manipur",
+      "lat": 24.639,
+      "lng": 94.01
+    },
+    {
+      "name": "Apollo Pharmacy, Churachandpur",
+      "city": "Churachandpur",
+      "state": "Manipur",
+      "lat": 24.3333,
+      "lng": 93.6833
+    },
+    {
+      "name": "MedPlus, Tura",
+      "city": "Tura",
+      "state": "Meghalaya",
+      "lat": 25.5144,
+      "lng": 90.2147
+    },
+    {
+      "name": "Jan Aushadhi, Jowai",
+      "city": "Jowai",
+      "state": "Meghalaya",
+      "lat": 25.4537,
+      "lng": 92.2034
+    },
+    {
+      "name": "Netmeds Store, Lunglei",
+      "city": "Lunglei",
+      "state": "Mizoram",
+      "lat": 22.8832,
+      "lng": 92.736
+    },
+    {
+      "name": "Apollo Pharmacy, Kolasib",
+      "city": "Kolasib",
+      "state": "Mizoram",
+      "lat": 24.2238,
+      "lng": 92.6789
+    },
+    {
+      "name": "Jan Aushadhi, Kohima",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "lat": 25.6751,
+      "lng": 94.1086
+    },
+    {
+      "name": "MedPlus, Mon",
+      "city": "Mon",
+      "state": "Nagaland",
+      "lat": 26.7112,
+      "lng": 94.9152
+    },
+    {
+      "name": "Apollo Pharmacy, Dharmanagar",
+      "city": "Dharmanagar",
+      "state": "Tripura",
+      "lat": 24.3733,
+      "lng": 92.1679
+    },
+    {
+      "name": "Netmeds Store, Udaipur Tripura",
+      "city": "Udaipur",
+      "state": "Tripura",
+      "lat": 23.5339,
+      "lng": 91.4895
+    },
+    {
+      "name": "MedPlus, Pasighat",
+      "city": "Pasighat",
+      "state": "Arunachal Pradesh",
+      "lat": 28.07,
+      "lng": 95.33
+    },
+    {
+      "name": "Jan Aushadhi, Naharlagun",
+      "city": "Naharlagun",
+      "state": "Arunachal Pradesh",
+      "lat": 27.1045,
+      "lng": 93.6955
+    },
+    {
+      "name": "Apollo Pharmacy, Leh",
+      "city": "Leh",
+      "state": "Ladakh",
+      "lat": 34.1526,
+      "lng": 77.5771
+    },
+    {
+      "name": "Jan Aushadhi, Kargil",
+      "city": "Kargil",
+      "state": "Ladakh",
+      "lat": 34.5539,
+      "lng": 76.1349
+    },
+    {
+      "name": "Govt Pharmacy, Port Blair",
+      "city": "Port Blair",
+      "state": "Andaman and Nicobar Islands",
+      "lat": 11.6234,
+      "lng": 92.7265
+    },
+    {
+      "name": "Govt Pharmacy, Car Nicobar",
+      "city": "Car Nicobar",
+      "state": "Andaman and Nicobar Islands",
+      "lat": 9.1597,
+      "lng": 92.8196
+    },
+    {
+      "name": "Govt Pharmacy, Kavaratti",
+      "city": "Kavaratti",
+      "state": "Lakshadweep",
+      "lat": 10.5593,
+      "lng": 72.6358
+    },
+    {
+      "name": "Apollo Pharmacy, Gulbarga",
+      "city": "Kalaburagi",
+      "state": "Karnataka",
+      "lat": 17.3297,
+      "lng": 76.8343
+    },
+    {
+      "name": "MedPlus, Bellary",
+      "city": "Bellary",
+      "state": "Karnataka",
+      "lat": 15.1394,
+      "lng": 76.9214
+    },
+    {
+      "name": "Netmeds Store, Davangere",
+      "city": "Davangere",
+      "state": "Karnataka",
+      "lat": 14.4644,
+      "lng": 75.9218
+    },
+    {
+      "name": "Jan Aushadhi, Shimoga",
+      "city": "Shimoga",
+      "state": "Karnataka",
+      "lat": 13.9299,
+      "lng": 75.5681
+    },
+    {
+      "name": "Apollo Pharmacy, Vellore",
+      "city": "Vellore",
+      "state": "Tamil Nadu",
+      "lat": 12.9165,
+      "lng": 79.1325
+    },
+    {
+      "name": "MedPlus, Thoothukudi",
+      "city": "Thoothukudi",
+      "state": "Tamil Nadu",
+      "lat": 8.7642,
+      "lng": 78.1348
+    },
+    {
+      "name": "Netmeds Store, Thanjavur",
+      "city": "Thanjavur",
+      "state": "Tamil Nadu",
+      "lat": 10.787,
+      "lng": 79.1378
+    },
+    {
+      "name": "PharmEasy Hub, Dindigul",
+      "city": "Dindigul",
+      "state": "Tamil Nadu",
+      "lat": 10.3624,
+      "lng": 77.9695
+    },
+    {
+      "name": "Apollo Pharmacy, Jhansi",
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "lat": 25.4484,
+      "lng": 78.5685
+    },
+    {
+      "name": "MedPlus, Moradabad",
+      "city": "Moradabad",
+      "state": "Uttar Pradesh",
+      "lat": 28.8386,
+      "lng": 78.7733
+    },
+    {
+      "name": "Jan Aushadhi, Azamgarh",
+      "city": "Azamgarh",
+      "state": "Uttar Pradesh",
+      "lat": 26.0735,
+      "lng": 83.186
+    },
+    {
+      "name": "Netmeds Store, Sultanpur",
+      "city": "Sultanpur",
+      "state": "Uttar Pradesh",
+      "lat": 26.2648,
+      "lng": 82.0727
+    },
+    {
+      "name": "PharmEasy Hub, Firozabad",
+      "city": "Firozabad",
+      "state": "Uttar Pradesh",
+      "lat": 27.1591,
+      "lng": 78.3957
+    },
+    {
+      "name": "1mg Store, Mirzapur",
+      "city": "Mirzapur",
+      "state": "Uttar Pradesh",
+      "lat": 25.1337,
+      "lng": 82.5644
+    },
+    {
+      "name": "Apollo Pharmacy, Patiala",
+      "city": "Patiala",
+      "state": "Punjab",
+      "lat": 30.3398,
+      "lng": 76.3869
+    },
+    {
+      "name": "MedPlus, Bathinda",
+      "city": "Bathinda",
+      "state": "Punjab",
+      "lat": 30.211,
+      "lng": 74.9455
+    },
+    {
+      "name": "Jan Aushadhi, Hoshiarpur",
+      "city": "Hoshiarpur",
+      "state": "Punjab",
+      "lat": 31.5143,
+      "lng": 75.9115
+    },
+    {
+      "name": "Netmeds Store, Pathankot",
+      "city": "Pathankot",
+      "state": "Punjab",
+      "lat": 32.2643,
+      "lng": 75.6421
+    },
+    {
+      "name": "Apollo Pharmacy, Asansol",
+      "city": "Asansol",
+      "state": "West Bengal",
+      "lat": 23.6739,
+      "lng": 86.9524
+    },
+    {
+      "name": "MedPlus, Haldia",
+      "city": "Haldia",
+      "state": "West Bengal",
+      "lat": 22.0667,
+      "lng": 88.0698
+    },
+    {
+      "name": "Jan Aushadhi, Malda",
+      "city": "Malda",
+      "state": "West Bengal",
+      "lat": 25.0108,
+      "lng": 88.1411
+    },
+    {
+      "name": "Netmeds Store, Krishnanagar",
+      "city": "Krishnanagar",
+      "state": "West Bengal",
+      "lat": 23.4013,
+      "lng": 88.4883
+    },
+    {
+      "name": "Apollo Pharmacy, Srinagar",
+      "city": "Srinagar",
+      "state": "Jammu & Kashmir",
+      "lat": 34.0837,
+      "lng": 74.7973
+    },
+    {
+      "name": "MedPlus, Anantnag",
+      "city": "Anantnag",
+      "state": "Jammu & Kashmir",
+      "lat": 33.7311,
+      "lng": 75.1487
+    },
+    {
+      "name": "Jan Aushadhi, Haldwani",
+      "city": "Haldwani",
+      "state": "Uttarakhand",
+      "lat": 29.2183,
+      "lng": 79.513
+    },
+    {
+      "name": "Apollo Pharmacy, Rishikesh",
+      "city": "Rishikesh",
+      "state": "Uttarakhand",
+      "lat": 30.0869,
+      "lng": 78.2676
+    },
+    {
+      "name": "MedPlus, Jalgaon",
+      "city": "Jalgaon",
+      "state": "Maharashtra",
+      "lat": 21.0077,
+      "lng": 75.5626
+    },
+    {
+      "name": "Jan Aushadhi, Latur",
+      "city": "Latur",
+      "state": "Maharashtra",
+      "lat": 18.3968,
+      "lng": 76.5604
+    },
+    {
+      "name": "Netmeds Store, Ratnagiri",
+      "city": "Ratnagiri",
+      "state": "Maharashtra",
+      "lat": 16.9902,
+      "lng": 73.312
+    },
+    {
+      "name": "PharmEasy Hub, Chandrapur",
+      "city": "Chandrapur",
+      "state": "Maharashtra",
+      "lat": 19.9615,
+      "lng": 79.2961
+    },
+    {
+      "name": "Apollo Pharmacy, Gandhidham",
+      "city": "Gandhidham",
+      "state": "Gujarat",
+      "lat": 23.0753,
+      "lng": 70.1337
+    },
+    {
+      "name": "MedPlus, Junagadh",
+      "city": "Junagadh",
+      "state": "Gujarat",
+      "lat": 21.5222,
+      "lng": 70.4579
+    },
+    {
+      "name": "Jan Aushadhi, Mehsana",
+      "city": "Mehsana",
+      "state": "Gujarat",
+      "lat": 23.588,
+      "lng": 72.3693
+    },
+    {
+      "name": "Netmeds Store, Navsari",
+      "city": "Navsari",
+      "state": "Gujarat",
+      "lat": 20.9467,
+      "lng": 72.952
+    }
+  ],
+  "known_hotspots": [
+    {
+      "name": "Bhagirath Palace Counterfeit Risk Zone",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.6562,
+      "lng": 77.231,
+      "risk_level": "high",
+      "type": "distribution_counterfeit",
+      "notes": "Repeatedly flagged by CDSCO and WHO as a source point for spurious and NSQ drugs. Multiple raids have uncovered counterfeit medicine operations."
+    },
+    {
+      "name": "Agra-Mathura Spurious Drug Belt",
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "lat": 27.1767,
+      "lng": 78.0081,
+      "risk_level": "high",
+      "type": "manufacturing_counterfeit",
+      "notes": "Multiple CDSCO enforcement actions against unlicensed manufacturing units producing spurious medicines."
+    },
+    {
+      "name": "Kanpur Counterfeit Manufacturing Zone",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "lat": 26.4499,
+      "lng": 80.3319,
+      "risk_level": "high",
+      "type": "manufacturing_counterfeit",
+      "notes": "Multiple raids by state drug authorities uncovering fake medicine manufacturing units."
+    },
+    {
+      "name": "Ghaziabad-Noida Pharma Grey Market",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "lat": 28.6692,
+      "lng": 77.4538,
+      "risk_level": "high",
+      "type": "distribution_counterfeit",
+      "notes": "Proximity to Delhi wholesale markets enables grey market pharma distribution."
+    },
+    {
+      "name": "Jammu Pharma Cross-Border Risk Zone",
+      "city": "Jammu",
+      "state": "Jammu & Kashmir",
+      "lat": 32.7266,
+      "lng": 74.857,
+      "risk_level": "medium",
+      "type": "cross_border_counterfeit",
+      "notes": "Cross-border smuggling of unregistered pharmaceutical products reported."
+    },
+    {
+      "name": "Indore-Dewas NSQ Drug Zone",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "lat": 22.7196,
+      "lng": 75.8577,
+      "risk_level": "medium",
+      "type": "manufacturing_nsq",
+      "notes": "CDSCO monthly alerts have listed manufacturers in this region for NSQ drugs, particularly anti-infective and analgesic categories."
+    },
+    {
+      "name": "Chhattisgarh Rural Supply Chain Vulnerability",
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "lat": 21.2514,
+      "lng": 81.6296,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Remote and tribal areas face supply chain gaps exploited by spurious drug distributors."
+    },
+    {
+      "name": "Bihar Counterfeit Distribution Network",
+      "city": "Patna",
+      "state": "Bihar",
+      "lat": 25.6093,
+      "lng": 85.1376,
+      "risk_level": "high",
+      "type": "distribution_counterfeit",
+      "notes": "Weak regulatory enforcement historically linked to high counterfeit drug prevalence."
+    },
+    {
+      "name": "West Bengal Border Smuggling Corridor",
+      "city": "Siliguri",
+      "state": "West Bengal",
+      "lat": 26.7271,
+      "lng": 88.3953,
+      "risk_level": "medium",
+      "type": "cross_border_counterfeit",
+      "notes": "Chicken's Neck corridor near Nepal, Bhutan, and Bangladesh borders. Unregulated pharmaceutical imports."
+    },
+    {
+      "name": "Madhya Pradesh Rural Spurious Drug Spread",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "lat": 23.2599,
+      "lng": 77.4126,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Large rural population with limited access to licensed pharmacies."
+    },
+    {
+      "name": "Punjab-Haryana Pharma Grey Belt",
+      "city": "Ambala",
+      "state": "Haryana",
+      "lat": 30.3782,
+      "lng": 76.7767,
+      "risk_level": "medium",
+      "type": "distribution_counterfeit",
+      "notes": "Proximity to Baddi manufacturing cluster creates opportunity for diversion of substandard products."
+    },
+    {
+      "name": "Rajasthan Western Border Vulnerability",
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "lat": 26.2389,
+      "lng": 73.0243,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Remote western districts face supply chain monitoring gaps. Cross-border pharmaceutical smuggling via Thar Desert corridor."
+    },
+    {
+      "name": "North-East India Supply Chain Gap",
+      "city": "Guwahati",
+      "state": "Assam",
+      "lat": 26.1445,
+      "lng": 91.7362,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Connectivity challenges and limited state drug testing infrastructure."
+    },
+    {
+      "name": "Varanasi-Allahabad Spurious Drug Corridor",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "lat": 25.3176,
+      "lng": 82.9739,
+      "risk_level": "high",
+      "type": "distribution_counterfeit",
+      "notes": "Major seizures of counterfeit antibiotics and antimalarials. Dense population and high demand create counterfeit incentives."
+    },
+    {
+      "name": "Bareilly-Moradabad Fake Drug Belt",
+      "city": "Bareilly",
+      "state": "Uttar Pradesh",
+      "lat": 28.367,
+      "lng": 79.4304,
+      "risk_level": "high",
+      "type": "manufacturing_counterfeit",
+      "notes": "Multiple CDSCO raids on unlicensed drug manufacturing units. Fake injection and tablet manufacturing operations busted."
+    },
+    {
+      "name": "Jharkhand Tribal Area Vulnerability",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "lat": 23.3441,
+      "lng": 85.3096,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Limited drug testing labs and pharmacist availability in tribal districts. Substandard drugs found in surveys."
+    },
+    {
+      "name": "Meerut-Saharanpur Counterfeit Zone",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "lat": 28.9845,
+      "lng": 77.7064,
+      "risk_level": "high",
+      "type": "manufacturing_counterfeit",
+      "notes": "Proximity to Delhi-NCR creates demand. Multiple unlicensed manufacturing units detected in raids."
+    },
+    {
+      "name": "Odisha Rural Supply Chain Gap",
+      "city": "Sambalpur",
+      "state": "Odisha",
+      "lat": 21.4669,
+      "lng": 83.9812,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Western Odisha tribal regions have inadequate pharma supply chain monitoring."
+    },
+    {
+      "name": "Manipur-Myanmar Border Drug Infiltration",
+      "city": "Moreh",
+      "state": "Manipur",
+      "lat": 24.25,
+      "lng": 94.3,
+      "risk_level": "high",
+      "type": "cross_border_counterfeit",
+      "notes": "Open border town with Myanmar. Unregulated pharmaceutical imports including fake antimalarials and antibiotics."
+    },
+    {
+      "name": "Tamil Nadu Rural District Vulnerability",
+      "city": "Thanjavur",
+      "state": "Tamil Nadu",
+      "lat": 10.787,
+      "lng": 79.1378,
+      "risk_level": "low",
+      "type": "supply_chain_vulnerability",
+      "notes": "Rural delta districts with pharmacy gaps. Periodic CDSCO alerts on substandard products."
+    },
+    {
+      "name": "Lucknow-Unnao Counterfeit Distribution",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "lat": 26.8467,
+      "lng": 80.9462,
+      "risk_level": "high",
+      "type": "distribution_counterfeit",
+      "notes": "Large-scale seizures of fake medicines from unlicensed wholesale operations. Dense population creates high demand for cheap alternatives."
+    },
+    {
+      "name": "Gorakhpur-Nepal Border Drug Corridor",
+      "city": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "lat": 26.7606,
+      "lng": 83.3732,
+      "risk_level": "high",
+      "type": "cross_border_counterfeit",
+      "notes": "Open border with Nepal facilitates pharmaceutical smuggling. Fake antimicrobials and analgesics frequently seized."
+    },
+    {
+      "name": "Kolkata Port Drug Diversion Risk",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "risk_level": "medium",
+      "type": "distribution_counterfeit",
+      "notes": "Port area and Burrabazar wholesale market have been flagged for diversion of expired and relabeled pharmaceuticals."
+    },
+    {
+      "name": "Muzaffarpur-Darbhanga NSQ Belt",
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "lat": 26.1209,
+      "lng": 85.3647,
+      "risk_level": "high",
+      "type": "supply_chain_vulnerability",
+      "notes": "Multiple CDSCO alerts for not-of-standard-quality drugs found in district hospitals. Limited testing infrastructure."
+    },
+    {
+      "name": "Mizoram-Myanmar Border Infiltration",
+      "city": "Champhai",
+      "state": "Mizoram",
+      "lat": 23.4567,
+      "lng": 93.326,
+      "risk_level": "medium",
+      "type": "cross_border_counterfeit",
+      "notes": "Border town with Myanmar. Unregistered pharmaceutical products enter through informal trade channels."
+    },
+    {
+      "name": "Nagaland Supply Chain Isolation",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "lat": 25.6751,
+      "lng": 94.1086,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Extremely limited pharma infrastructure. Dependent on single supply chain through Dimapur. High vulnerability to substandard drugs."
+    },
+    {
+      "name": "Tripura Border Pharmaceutical Risk",
+      "city": "Agartala",
+      "state": "Tripura",
+      "lat": 23.8315,
+      "lng": 91.2868,
+      "risk_level": "medium",
+      "type": "cross_border_counterfeit",
+      "notes": "International border with Bangladesh on three sides. Unregulated pharmaceutical trade reported."
+    },
+    {
+      "name": "Rajasthan-Pakistan Border Drug Gap",
+      "city": "Barmer",
+      "state": "Rajasthan",
+      "lat": 25.7521,
+      "lng": 71.3967,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Extremely remote desert districts with minimal pharmacy coverage. Substandard medicines fill the void."
+    },
+    {
+      "name": "Haryana NCR Grey Market Network",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "lat": 28.4595,
+      "lng": 77.0266,
+      "risk_level": "medium",
+      "type": "distribution_counterfeit",
+      "notes": "NCR satellite cities have grey market pharma distribution networks serving price-sensitive consumers."
+    },
+    {
+      "name": "Andaman Islands Supply Chain Isolation",
+      "city": "Port Blair",
+      "state": "Andaman and Nicobar Islands",
+      "lat": 11.6234,
+      "lng": 92.7265,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Complete dependence on shipping from mainland. Delays create medicine shortages exploited by substandard drug sellers."
+    },
+    {
+      "name": "Ladakh Extreme Supply Chain Gap",
+      "city": "Leh",
+      "state": "Ladakh",
+      "lat": 34.1526,
+      "lng": 77.5771,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Roads closed 6 months/year. Extreme isolation creates vulnerability to expired and substandard medicines."
+    },
+    {
+      "name": "Bihar-Nepal Open Border Drug Flow",
+      "city": "Raxaul",
+      "state": "Bihar",
+      "lat": 26.9787,
+      "lng": 84.8483,
+      "risk_level": "high",
+      "type": "cross_border_counterfeit",
+      "notes": "Open India-Nepal border crossing. Major pharma smuggling route for counterfeit antibiotics and antimalarials."
+    },
+    {
+      "name": "Purnia-Kishanganj Border Vulnerability",
+      "city": "Purnia",
+      "state": "Bihar",
+      "lat": 25.7771,
+      "lng": 87.4753,
+      "risk_level": "medium",
+      "type": "cross_border_counterfeit",
+      "notes": "Near Bangladesh and Nepal borders. Tri-junction area with weak pharma regulatory enforcement."
+    },
+    {
+      "name": "Arunachal Pradesh Supply Chain Void",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "lat": 27.0844,
+      "lng": 93.6053,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Lowest pharmacy density in India. Most districts lack drug testing facilities. Myanmar border proximity adds risk."
+    },
+    {
+      "name": "Srinagar Kashmir Supply Chain Risk",
+      "city": "Srinagar",
+      "state": "Jammu & Kashmir",
+      "lat": 34.0837,
+      "lng": 74.7973,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Conflict zone disruptions to supply chains. Winter road closures create medicine shortages exploited by counterfeiters."
+    }
+  ],
+  "regulatory_bodies": [
+    {
+      "name": "Central Drugs Standard Control Organisation (CDSCO)",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.628,
+      "lng": 77.2175,
+      "role": "National drug regulatory authority. Publishes monthly NSQ and spurious drug alerts.",
+      "website": "https://cdsco.gov.in"
+    },
+    {
+      "name": "National Pharmaceutical Pricing Authority (NPPA)",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.6145,
+      "lng": 77.209,
+      "role": "Price regulation and monitoring. Tracks pricing anomalies that may indicate counterfeits.",
+      "website": "https://nppaindia.nic.in"
+    },
+    {
+      "name": "Indian Pharmacopoeia Commission (IPC)",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "lat": 28.6692,
+      "lng": 77.4538,
+      "role": "Sets drug quality standards. Operates the Pharmacovigilance Programme of India (PvPI).",
+      "website": "https://ipc.gov.in"
+    },
+    {
+      "name": "CDSCO Zonal Office - Mumbai",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "role": "Western zone regulatory enforcement. Covers Gujarat, Maharashtra, Goa, Madhya Pradesh."
+    },
+    {
+      "name": "CDSCO Zonal Office - Chennai",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "role": "Southern zone regulatory enforcement. Covers Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana."
+    },
+    {
+      "name": "CDSCO Zonal Office - Kolkata",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "role": "Eastern zone regulatory enforcement. Covers West Bengal, Odisha, Bihar, Jharkhand, NE states."
+    }
+  ],
+  "drug_catalog": [
+    {
+      "name": "Paracetamol 500mg",
+      "generic": "Acetaminophen",
+      "category": "analgesic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 25.5,
+      "schedule": "OTC",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "Pan-D combo is #1 spurious drug in India per CDSCO; paracetamol syrups linked to child deaths in Gambia/Uzbekistan"
+    },
+    {
+      "name": "Amoxicillin 250mg",
+      "generic": "Amoxicillin",
+      "category": "antibiotic",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 85.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Common in CDSCO NSQ alerts; penicillin antibiotics frequently substandard in India"
+    },
+    {
+      "name": "Amoxicillin 500mg",
+      "generic": "Amoxicillin",
+      "category": "antibiotic",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 120.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Common in CDSCO NSQ alerts; penicillin antibiotics frequently substandard in India"
+    },
+    {
+      "name": "Metformin 500mg",
+      "generic": "Metformin HCl",
+      "category": "antidiabetic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 35.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "NDMA contamination recalls globally; high-volume generic with frequent quality failures"
+    },
+    {
+      "name": "Metformin 1000mg",
+      "generic": "Metformin HCl",
+      "category": "antidiabetic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 65.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "NDMA contamination recalls globally; high-volume generic with frequent quality failures"
+    },
+    {
+      "name": "Atorvastatin 10mg",
+      "generic": "Atorvastatin",
+      "category": "statin",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 95.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "High-volume statin; moderate quality failure rate"
+    },
+    {
+      "name": "Atorvastatin 20mg",
+      "generic": "Atorvastatin",
+      "category": "statin",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 145.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "High-volume statin; moderate quality failure rate"
+    },
+    {
+      "name": "Omeprazole 20mg",
+      "generic": "Omeprazole",
+      "category": "antacid",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 65.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Common PPI with moderate counterfeit risk"
+    },
+    {
+      "name": "Azithromycin 500mg",
+      "generic": "Azithromycin",
+      "category": "antibiotic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 72.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Among top 5 CDSCO NSQ-flagged antibiotics; widespread substandard generics detected across India"
+    },
+    {
+      "name": "Azithromycin 250mg",
+      "generic": "Azithromycin",
+      "category": "antibiotic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 55.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Among top 5 CDSCO NSQ-flagged antibiotics; widespread substandard generics detected across India"
+    },
+    {
+      "name": "Ciprofloxacin 500mg",
+      "generic": "Ciprofloxacin",
+      "category": "antibiotic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 48.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Fluoroquinolone frequently flagged in CDSCO quality testing; wide generic market"
+    },
+    {
+      "name": "Ibuprofen 400mg",
+      "generic": "Ibuprofen",
+      "category": "analgesic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 30.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "High-volume OTC analgesic; moderate quality variation"
+    },
+    {
+      "name": "Losartan 50mg",
+      "generic": "Losartan Potassium",
+      "category": "antihypertensive",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 110.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "ARB class affected by sartan impurity recalls"
+    },
+    {
+      "name": "Amlodipine 5mg",
+      "generic": "Amlodipine",
+      "category": "antihypertensive",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 55.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Very high prescription volume in India; moderate risk"
+    },
+    {
+      "name": "Amlodipine 10mg",
+      "generic": "Amlodipine",
+      "category": "antihypertensive",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 85.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Very high prescription volume in India; moderate risk"
+    },
+    {
+      "name": "Cetirizine 10mg",
+      "generic": "Cetirizine HCl",
+      "category": "antihistamine",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 20.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "OTC antihistamine; counterfeiting driven by volume"
+    },
+    {
+      "name": "Pantoprazole 40mg",
+      "generic": "Pantoprazole",
+      "category": "antacid",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 78.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "spurious_declared",
+        "high_volume"
+      ],
+      "counterfeit_notes": "Pan-D (pantoprazole+domperidone) declared spurious by CDSCO; very high volume drug in India"
+    },
+    {
+      "name": "Clopidogrel 75mg",
+      "generic": "Clopidogrel",
+      "category": "antiplatelet",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 125.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "Brand-name premium creates counterfeiting incentive"
+    },
+    {
+      "name": "Glimepiride 2mg",
+      "generic": "Glimepiride",
+      "category": "antidiabetic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 60.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Common sulfonylurea; moderate quality risk"
+    },
+    {
+      "name": "Montelukast 10mg",
+      "generic": "Montelukast",
+      "category": "antiasthmatic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 140.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "High prescription volume; some quality alerts"
+    },
+    {
+      "name": "Telmisartan 40mg",
+      "generic": "Telmisartan",
+      "category": "antihypertensive",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 90.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "ARB class had sartan impurity crisis (NDMA/NDEA); telmisartan frequently in quality alerts"
+    },
+    {
+      "name": "Telmisartan 80mg",
+      "generic": "Telmisartan",
+      "category": "antihypertensive",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 135.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "ARB class had sartan impurity crisis (NDMA/NDEA); telmisartan frequently in quality alerts"
+    },
+    {
+      "name": "Doxycycline 100mg",
+      "generic": "Doxycycline",
+      "category": "antibiotic",
+      "form": "capsule",
+      "shelf_life_months": 36,
+      "mrp": 55.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Tetracycline antibiotic with moderate risk"
+    },
+    {
+      "name": "Levofloxacin 500mg",
+      "generic": "Levofloxacin",
+      "category": "antibiotic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 90.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "cdsco_nsq_flagged"
+      ],
+      "counterfeit_notes": "Fluoroquinolone occasionally in quality alerts"
+    },
+    {
+      "name": "Metoprolol 50mg",
+      "generic": "Metoprolol",
+      "category": "beta_blocker",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 45.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Common beta-blocker; moderate quality risk"
+    },
+    {
+      "name": "Diclofenac 50mg",
+      "generic": "Diclofenac Sodium",
+      "category": "analgesic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 22.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Very common NSAID in India; quality varies"
+    },
+    {
+      "name": "Ranitidine 150mg",
+      "generic": "Ranitidine HCl",
+      "category": "antacid",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 30.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "Largely withdrawn due to NDMA; remaining stocks at risk"
+    },
+    {
+      "name": "Cefixime 200mg",
+      "generic": "Cefixime",
+      "category": "antibiotic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 110.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Third-gen cephalosporin frequently appears in CDSCO Not-of-Standard-Quality alerts"
+    },
+    {
+      "name": "Cefixime 400mg",
+      "generic": "Cefixime",
+      "category": "antibiotic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 175.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Third-gen cephalosporin frequently appears in CDSCO Not-of-Standard-Quality alerts"
+    },
+    {
+      "name": "Rosuvastatin 10mg",
+      "generic": "Rosuvastatin",
+      "category": "statin",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 130.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume"
+      ],
+      "counterfeit_notes": "High-volume statin with frequent appearance in quality failure reports"
+    },
+    {
+      "name": "Rosuvastatin 20mg",
+      "generic": "Rosuvastatin",
+      "category": "statin",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 195.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "high_volume"
+      ],
+      "counterfeit_notes": "High-volume statin with frequent appearance in quality failure reports"
+    },
+    {
+      "name": "Aspirin 75mg",
+      "generic": "Aspirin",
+      "category": "antiplatelet",
+      "form": "tablet",
+      "shelf_life_months": 48,
+      "mrp": 15.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Low-value OTC; limited counterfeiting incentive"
+    },
+    {
+      "name": "Aspirin 150mg",
+      "generic": "Aspirin",
+      "category": "antiplatelet",
+      "form": "tablet",
+      "shelf_life_months": 48,
+      "mrp": 22.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Low-value OTC; limited counterfeiting incentive"
+    },
+    {
+      "name": "Gabapentin 300mg",
+      "generic": "Gabapentin",
+      "category": "anticonvulsant",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 160.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "diversion_risk"
+      ],
+      "counterfeit_notes": "Increasing recreational misuse; some diversion risk"
+    },
+    {
+      "name": "Pregabalin 75mg",
+      "generic": "Pregabalin",
+      "category": "anticonvulsant",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 120.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "diversion_risk"
+      ],
+      "counterfeit_notes": "Growing misuse concern; moderate counterfeit risk"
+    },
+    {
+      "name": "Levothyroxine 50mcg",
+      "generic": "Levothyroxine",
+      "category": "thyroid",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 85.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "Low value but narrow therapeutic index"
+    },
+    {
+      "name": "Levothyroxine 100mcg",
+      "generic": "Levothyroxine",
+      "category": "thyroid",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 110.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "Low value but narrow therapeutic index"
+    },
+    {
+      "name": "Insulin Glargine 100IU",
+      "generic": "Insulin Glargine",
+      "category": "antidiabetic",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 850.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [
+        "cold_chain_vulnerable"
+      ],
+      "counterfeit_notes": "Cold-chain biologic; complex to counterfeit but storage issues"
+    },
+    {
+      "name": "Insulin Human 40IU",
+      "generic": "Insulin Human",
+      "category": "antidiabetic",
+      "form": "injection",
+      "shelf_life_months": 18,
+      "mrp": 135.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [
+        "cold_chain_vulnerable"
+      ],
+      "counterfeit_notes": "Cold-chain; hard to counterfeit but storage-sensitive"
+    },
+    {
+      "name": "Ondansetron 4mg",
+      "generic": "Ondansetron",
+      "category": "antiemetic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 45.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Common antiemetic; moderate risk"
+    },
+    {
+      "name": "Domperidone 10mg",
+      "generic": "Domperidone",
+      "category": "antiemetic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 35.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "spurious_declared"
+      ],
+      "counterfeit_notes": "Part of Pan-D combination; domperidone-containing products frequently flagged"
+    },
+    {
+      "name": "Fluconazole 150mg",
+      "generic": "Fluconazole",
+      "category": "antifungal",
+      "form": "capsule",
+      "shelf_life_months": 36,
+      "mrp": 25.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Common cheap antifungal; low incentive"
+    },
+    {
+      "name": "Albendazole 400mg",
+      "generic": "Albendazole",
+      "category": "anthelmintic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 12.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Very cheap anthelmintic; minimal incentive"
+    },
+    {
+      "name": "Hydroxychloroquine 200mg",
+      "generic": "Hydroxychloroquine",
+      "category": "antimalarial",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 55.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "shortage_driven",
+        "high_volume"
+      ],
+      "counterfeit_notes": "COVID-19 panic buying created massive counterfeit market; antimalarial with pre-existing risk"
+    },
+    {
+      "name": "Artemether-Lumefantrine",
+      "generic": "Artemether+Lumefantrine",
+      "category": "antimalarial",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 95.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "who_sf_category",
+        "high_volume",
+        "shortage_driven"
+      ],
+      "counterfeit_notes": "WHO estimates 19.1% of antimalarials in endemic regions are substandard/falsified; critical public health impact"
+    },
+    {
+      "name": "Rifampicin 450mg",
+      "generic": "Rifampicin",
+      "category": "anti_tb",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 70.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "who_sf_category",
+        "shortage_driven",
+        "high_volume"
+      ],
+      "counterfeit_notes": "WHO-monitored anti-TB drug; substandard versions threaten MDR-TB control programs"
+    },
+    {
+      "name": "Isoniazid 300mg",
+      "generic": "Isoniazid",
+      "category": "anti_tb",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 25.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "who_sf_category"
+      ],
+      "counterfeit_notes": "Anti-TB drug monitored by WHO; less counterfeited than rifampicin"
+    },
+    {
+      "name": "Ethambutol 400mg",
+      "generic": "Ethambutol",
+      "category": "anti_tb",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 30.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "who_sf_category"
+      ],
+      "counterfeit_notes": "Anti-TB drug in WHO monitoring; moderate risk"
+    },
+    {
+      "name": "ORS Powder",
+      "generic": "Oral Rehydration Salts",
+      "category": "rehydration",
+      "form": "powder",
+      "shelf_life_months": 36,
+      "mrp": 10.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Very low value; minimal counterfeiting incentive"
+    },
+    {
+      "name": "Zinc Dispersible 20mg",
+      "generic": "Zinc Sulphate",
+      "category": "supplement",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 18.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Low-value supplement; minimal risk"
+    },
+    {
+      "name": "Iron Folic Acid",
+      "generic": "Ferrous Sulphate+Folic Acid",
+      "category": "supplement",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 15.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Low-cost government-distributed supplement"
+    },
+    {
+      "name": "Vitamin D3 60000IU",
+      "generic": "Cholecalciferol",
+      "category": "supplement",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 40.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Vitamin D supplement; minimal counterfeiting"
+    },
+    {
+      "name": "Enalapril 5mg",
+      "generic": "Enalapril Maleate",
+      "category": "antihypertensive",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 50.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Older ACE inhibitor; lower market share now"
+    },
+    {
+      "name": "Warfarin 5mg",
+      "generic": "Warfarin Sodium",
+      "category": "anticoagulant",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 35.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "Narrow therapeutic index; quality critical"
+    },
+    {
+      "name": "Phenytoin 100mg",
+      "generic": "Phenytoin Sodium",
+      "category": "anticonvulsant",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 20.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "Narrow therapeutic index anticonvulsant"
+    },
+    {
+      "name": "Salbutamol Inhaler 100mcg",
+      "generic": "Salbutamol",
+      "category": "bronchodilator",
+      "form": "inhaler",
+      "shelf_life_months": 24,
+      "mrp": 120.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Inhaler; device complexity reduces counterfeiting"
+    },
+    {
+      "name": "Budesonide Inhaler 200mcg",
+      "generic": "Budesonide",
+      "category": "corticosteroid",
+      "form": "inhaler",
+      "shelf_life_months": 24,
+      "mrp": 275.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Inhaler; device complexity reduces counterfeiting"
+    },
+    {
+      "name": "Prednisolone 5mg",
+      "generic": "Prednisolone",
+      "category": "corticosteroid",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 18.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Low-cost corticosteroid; minimal counterfeiting"
+    },
+    {
+      "name": "Dexamethasone 0.5mg",
+      "generic": "Dexamethasone",
+      "category": "corticosteroid",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 12.0,
+      "schedule": "H",
+      "counterfeit_risk": "low",
+      "risk_factors": [],
+      "counterfeit_notes": "Low-cost corticosteroid; minimal counterfeiting"
+    },
+    {
+      "name": "Tramadol 50mg",
+      "generic": "Tramadol HCl",
+      "category": "opioid_analgesic",
+      "form": "capsule",
+      "shelf_life_months": 36,
+      "mrp": 55.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "diversion_risk",
+        "export_counterfeit",
+        "high_volume"
+      ],
+      "counterfeit_notes": "Massive illicit tramadol production in India; WHO SF alerts; INCB monitoring for diversion"
+    },
+    {
+      "name": "Acyclovir 400mg",
+      "generic": "Acyclovir",
+      "category": "antiviral",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 85.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Common antiviral; moderate counterfeit risk"
+    },
+    {
+      "name": "Tenofovir 300mg",
+      "generic": "Tenofovir Disoproxil",
+      "category": "antiretroviral",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 350.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "who_sf_category",
+        "high_volume"
+      ],
+      "counterfeit_notes": "Antiretroviral frequently in WHO SF alerts; critical HIV treatment with counterfeit risk in Africa"
+    },
+    {
+      "name": "Sildenafil 50mg",
+      "generic": "Sildenafil Citrate",
+      "category": "pde5_inhibitor",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 65.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "export_counterfeit",
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "ED drugs account for 80% of US border seizure value; India is primary source country for counterfeit Viagra"
+    },
+    {
+      "name": "Tamsulosin 0.4mg",
+      "generic": "Tamsulosin HCl",
+      "category": "urology",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 95.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Common urology drug; moderate risk"
+    },
+    {
+      "name": "Norfloxacin 400mg",
+      "generic": "Norfloxacin",
+      "category": "antibiotic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 40.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cdsco_nsq_flagged",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Older fluoroquinolone with high generic penetration; quality failures documented"
+    },
+    {
+      "name": "Ofloxacin 200mg",
+      "generic": "Ofloxacin",
+      "category": "antibiotic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 50.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "cdsco_nsq_flagged"
+      ],
+      "counterfeit_notes": "Fluoroquinolone in quality alerts occasionally"
+    },
+    {
+      "name": "Metronidazole 400mg",
+      "generic": "Metronidazole",
+      "category": "antibiotic",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 18.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume",
+        "substandard_common"
+      ],
+      "counterfeit_notes": "Very common antibiotic; quality varies"
+    },
+    {
+      "name": "Clindamycin 300mg",
+      "generic": "Clindamycin",
+      "category": "antibiotic",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 145.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_volume"
+      ],
+      "counterfeit_notes": "Moderate risk; some quality variation"
+    },
+    {
+      "name": "Pioglitazone 15mg",
+      "generic": "Pioglitazone",
+      "category": "antidiabetic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 75.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "contamination_risk"
+      ],
+      "counterfeit_notes": "Thiazolidinedione with contamination history"
+    },
+    {
+      "name": "Sitagliptin 100mg",
+      "generic": "Sitagliptin",
+      "category": "antidiabetic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 450.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "Expensive DPP-4 inhibitor; brand premium incentivizes counterfeiting"
+    },
+    {
+      "name": "Empagliflozin 25mg",
+      "generic": "Empagliflozin",
+      "category": "antidiabetic",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 520.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "Expensive SGLT2 inhibitor; newer drug with premium pricing"
+    },
+    {
+      "name": "Promethazine Syrup 5mg/5ml",
+      "generic": "Promethazine",
+      "category": "cough_syrup",
+      "form": "syrup",
+      "shelf_life_months": 24,
+      "mrp": 55.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "contamination_risk",
+        "child_deaths",
+        "export_counterfeit",
+        "cdsco_nsq_flagged"
+      ],
+      "counterfeit_notes": "Contaminated cough syrups caused 300+ child deaths in Gambia, Uzbekistan, Cameroon; DEG/EG contamination from Indian manufacturers"
+    },
+    {
+      "name": "Dextromethorphan Syrup 10mg/5ml",
+      "generic": "Dextromethorphan",
+      "category": "cough_syrup",
+      "form": "syrup",
+      "shelf_life_months": 24,
+      "mrp": 65.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "contamination_risk",
+        "child_deaths",
+        "export_counterfeit"
+      ],
+      "counterfeit_notes": "Multiple Indian-origin cough syrups recalled worldwide for diethylene glycol contamination"
+    },
+    {
+      "name": "Codeine Phosphate Syrup 10mg/5ml",
+      "generic": "Codeine Phosphate",
+      "category": "cough_syrup",
+      "form": "syrup",
+      "shelf_life_months": 24,
+      "mrp": 80.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "diversion_risk",
+        "contamination_risk",
+        "child_deaths"
+      ],
+      "counterfeit_notes": "Codeine-containing cough syrups major diversion target; implicated in contamination deaths"
+    },
+    {
+      "name": "Imatinib 400mg",
+      "generic": "Imatinib Mesylate",
+      "category": "oncology",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 850.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "brand_targeted",
+        "shortage_driven"
+      ],
+      "counterfeit_notes": "CML treatment; Gleevec counterfeits widespread in developing countries; massive price differential drives counterfeiting"
+    },
+    {
+      "name": "Capecitabine 500mg",
+      "generic": "Capecitabine",
+      "category": "oncology",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 780.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "shortage_driven"
+      ],
+      "counterfeit_notes": "Oral chemotherapy; fake capecitabine seized in India containing no active ingredient"
+    },
+    {
+      "name": "Bevacizumab 100mg/4ml",
+      "generic": "Bevacizumab",
+      "category": "oncology",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 22000.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "cold_chain_vulnerable",
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "Avastin counterfeits (starch+salt water) detected worldwide; very high value target"
+    },
+    {
+      "name": "Trastuzumab 440mg",
+      "generic": "Trastuzumab",
+      "category": "oncology",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 75000.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "cold_chain_vulnerable",
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "Herceptin: among most counterfeited cancer drugs globally due to extreme price"
+    },
+    {
+      "name": "Paclitaxel 260mg",
+      "generic": "Paclitaxel",
+      "category": "oncology",
+      "form": "injection",
+      "shelf_life_months": 18,
+      "mrp": 8500.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "shortage_driven"
+      ],
+      "counterfeit_notes": "Taxane chemotherapy; price creates counterfeiting incentive in cancer treatment"
+    },
+    {
+      "name": "Pembrolizumab 100mg/4ml",
+      "generic": "Pembrolizumab",
+      "category": "oncology",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 315000.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "cold_chain_vulnerable",
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "Keytruda: extremely expensive immunotherapy; counterfeiting emerging as biosimilars not yet available everywhere"
+    },
+    {
+      "name": "Remdesivir 100mg",
+      "generic": "Remdesivir",
+      "category": "antiviral",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 2500.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "shortage_driven",
+        "high_price_low_complexity"
+      ],
+      "counterfeit_notes": "Massive counterfeit wave during COVID-19 Delta wave in India; fake remdesivir with no active ingredient sold at 10x markup"
+    },
+    {
+      "name": "Favipiravir 200mg",
+      "generic": "Favipiravir",
+      "category": "antiviral",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 75.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "shortage_driven"
+      ],
+      "counterfeit_notes": "COVID antiviral; shortage-driven counterfeiting during pandemic waves in India"
+    },
+    {
+      "name": "Molnupiravir 200mg",
+      "generic": "Molnupiravir",
+      "category": "antiviral",
+      "form": "capsule",
+      "shelf_life_months": 24,
+      "mrp": 65.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "shortage_driven"
+      ],
+      "counterfeit_notes": "COVID antiviral with moderate counterfeiting risk; Indian generics reduced price differential"
+    },
+    {
+      "name": "Semaglutide 1mg Pen",
+      "generic": "Semaglutide",
+      "category": "glp1_agonist",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 8500.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "shortage_driven",
+        "brand_targeted",
+        "cold_chain_vulnerable"
+      ],
+      "counterfeit_notes": "Ozempic/Wegovy: #1 most counterfeited drug globally in 2024-25; WHO alerts; fake pens with insulin/water found worldwide"
+    },
+    {
+      "name": "Liraglutide 6mg/ml Pen",
+      "generic": "Liraglutide",
+      "category": "glp1_agonist",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 7200.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "shortage_driven",
+        "brand_targeted",
+        "cold_chain_vulnerable"
+      ],
+      "counterfeit_notes": "Victoza/Saxenda: GLP-1 agonist with high counterfeiting due to weight-loss demand and supply shortages"
+    },
+    {
+      "name": "Tadalafil 20mg",
+      "generic": "Tadalafil",
+      "category": "pde5_inhibitor",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 120.0,
+      "schedule": "H",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "export_counterfeit",
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "Cialis counterfeits found with heavy metals, printer ink; high-value target alongside sildenafil"
+    },
+    {
+      "name": "Oxytocin 5IU/ml",
+      "generic": "Oxytocin",
+      "category": "maternal_health",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 18.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cold_chain_vulnerable",
+        "who_sf_category"
+      ],
+      "counterfeit_notes": "WHO priority; degraded/substandard oxytocin causes maternal deaths; cold chain failures in India common"
+    },
+    {
+      "name": "Misoprostol 200mcg",
+      "generic": "Misoprostol",
+      "category": "maternal_health",
+      "form": "tablet",
+      "shelf_life_months": 24,
+      "mrp": 25.0,
+      "schedule": "H",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "who_sf_category",
+        "diversion_risk"
+      ],
+      "counterfeit_notes": "WHO essential medicine; quality issues documented in LMICs; diversion for unapproved uses"
+    },
+    {
+      "name": "Erythropoietin 4000IU",
+      "generic": "Epoetin Alfa",
+      "category": "biologic",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 650.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "cold_chain_vulnerable",
+        "high_price_low_complexity"
+      ],
+      "counterfeit_notes": "Biologic with complex manufacturing; substandard EPO with wrong potency detected in developing markets"
+    },
+    {
+      "name": "Rituximab 500mg/50ml",
+      "generic": "Rituximab",
+      "category": "biologic",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 25000.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "cold_chain_vulnerable",
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "MabThera/Rituxan counterfeits seized; extremely high value biologic"
+    },
+    {
+      "name": "Adalimumab 40mg",
+      "generic": "Adalimumab",
+      "category": "biologic",
+      "form": "injection",
+      "shelf_life_months": 24,
+      "mrp": 15000.0,
+      "schedule": "H",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "high_price_low_complexity",
+        "cold_chain_vulnerable",
+        "brand_targeted"
+      ],
+      "counterfeit_notes": "Humira: one of highest-revenue drugs globally; biosimilar market complexity creates counterfeiting opportunities"
+    },
+    {
+      "name": "Alprazolam 0.5mg",
+      "generic": "Alprazolam",
+      "category": "controlled",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 30.0,
+      "schedule": "X",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "diversion_risk",
+        "high_volume"
+      ],
+      "counterfeit_notes": "Benzodiazepine with major diversion and counterfeit market; pressed pills with fentanyl found globally"
+    },
+    {
+      "name": "Clonazepam 0.5mg",
+      "generic": "Clonazepam",
+      "category": "controlled",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 25.0,
+      "schedule": "X",
+      "counterfeit_risk": "high",
+      "risk_factors": [
+        "diversion_risk"
+      ],
+      "counterfeit_notes": "Benzodiazepine with significant diversion risk; counterfeits circulate in grey market"
+    },
+    {
+      "name": "Buprenorphine 8mg",
+      "generic": "Buprenorphine",
+      "category": "controlled",
+      "form": "tablet",
+      "shelf_life_months": 36,
+      "mrp": 180.0,
+      "schedule": "X",
+      "counterfeit_risk": "medium",
+      "risk_factors": [
+        "diversion_risk"
+      ],
+      "counterfeit_notes": "Opioid substitution therapy; some diversion risk but lower counterfeiting than full agonists"
+    },
+    {
+      "name": "Paracetamol Syrup 120mg/5ml",
+      "generic": "Acetaminophen",
+      "category": "analgesic",
+      "form": "syrup",
+      "shelf_life_months": 24,
+      "mrp": 35.0,
+      "schedule": "OTC",
+      "counterfeit_risk": "critical",
+      "risk_factors": [
+        "contamination_risk",
+        "child_deaths",
+        "export_counterfeit",
+        "cdsco_nsq_flagged"
+      ],
+      "counterfeit_notes": "Paracetamol syrups from India caused 70+ child deaths in Gambia (2022); DEG/EG contamination; WHO alert issued"
+    }
+  ],
+  "scanner_devices": [
+    {
+      "device_type": "handheld_barcode",
+      "prefix": "HH",
+      "reliability": "high",
+      "typical_users": [
+        "pharmacy",
+        "distributor"
+      ]
+    },
+    {
+      "device_type": "mobile_app_android",
+      "prefix": "MA",
+      "reliability": "medium",
+      "typical_users": [
+        "consumer",
+        "pharmacy",
+        "distributor"
+      ]
+    },
+    {
+      "device_type": "mobile_app_ios",
+      "prefix": "MI",
+      "reliability": "medium",
+      "typical_users": [
+        "consumer",
+        "pharmacy"
+      ]
+    },
+    {
+      "device_type": "fixed_scanner",
+      "prefix": "FS",
+      "reliability": "high",
+      "typical_users": [
+        "manufacturer",
+        "distributor"
+      ]
+    },
+    {
+      "device_type": "warehouse_rfid",
+      "prefix": "WR",
+      "reliability": "high",
+      "typical_users": [
+        "manufacturer",
+        "distributor"
+      ]
+    },
+    {
+      "device_type": "pos_scanner",
+      "prefix": "POS",
+      "reliability": "high",
+      "typical_users": [
+        "pharmacy"
+      ]
+    },
+    {
+      "device_type": "delivery_handheld",
+      "prefix": "DH",
+      "reliability": "medium",
+      "typical_users": [
+        "distributor"
+      ]
+    },
+    {
+      "device_type": "inspection_device",
+      "prefix": "INS",
+      "reliability": "high",
+      "typical_users": [
+        "regulator"
+      ]
+    }
+  ],
+  "pharma_clusters_summary": {
+    "total_manufacturing_hubs": 30,
+    "total_distribution_hubs": 33,
+    "total_pharmacy_locations": 185,
+    "total_known_hotspots": 35,
+    "total_regulatory_bodies": 6,
+    "top_manufacturing_states": [
+      {
+        "state": "Gujarat",
+        "share_of_national_production_pct": 33
+      },
+      {
+        "state": "Maharashtra",
+        "share_of_national_production_pct": 18
+      },
+      {
+        "state": "Telangana",
+        "share_of_national_production_pct": 14
+      },
+      {
+        "state": "Karnataka",
+        "share_of_national_production_pct": 8
+      },
+      {
+        "state": "Himachal Pradesh",
+        "share_of_national_production_pct": 7
+      },
+      {
+        "state": "Tamil Nadu",
+        "share_of_national_production_pct": 6
+      },
+      {
+        "state": "Andhra Pradesh",
+        "share_of_national_production_pct": 5
+      },
+      {
+        "state": "Uttarakhand",
+        "share_of_national_production_pct": 4
+      }
+    ],
+    "notes": "India is the world's largest provider of generic drugs, supplying approximately 20% of global generic medicine by volume. The country has over 3,000 pharma companies with more than 10,500 manufacturing units."
+  }
+}

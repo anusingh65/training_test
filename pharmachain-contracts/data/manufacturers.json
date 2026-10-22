@@ -1,0 +1,20 @@
+[
+  {
+    "address": "0x0C7B3464aad6D843763C73478A80Fa1Ff1433dB8",
+    "role": 1,
+    "name": "Cipla Ltd",
+    "location": "Mumbai, India"
+  },
+  {
+    "address": "0xc8C72E5ee4CF77A1080100Bf0dba4412BdACed4E",
+    "role": 1,
+    "name": "Sun Pharma",
+    "location": "Vadodara, India"
+  },
+  {
+    "address": "0x555d8aFe7FD29eC64D84e930b1Bf0265D1cC68A8",
+    "role": 1,
+    "name": "BatchContract",
+    "location": "System"
+  }
+]

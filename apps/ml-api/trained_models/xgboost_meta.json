@@ -1,0 +1,20 @@
+{
+  "feature_columns": [
+    "supply_chain_hops",
+    "time_since_manufacture",
+    "days_to_expiry",
+    "duplicate_scan",
+    "hash_matched",
+    "scan_velocity",
+    "geographic_distance"
+  ],
+  "feature_importances": {
+    "supply_chain_hops": 0.002167705213651061,
+    "time_since_manufacture": 0.01967048831284046,
+    "days_to_expiry": 0.12119926512241364,
+    "duplicate_scan": 0.013055693358182907,
+    "hash_matched": 0.4714396297931671,
+    "scan_velocity": 0.14762017130851746,
+    "geographic_distance": 0.22484707832336426
+  }
+}

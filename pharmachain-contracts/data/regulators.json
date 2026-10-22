@@ -1,0 +1,20 @@
+[
+  {
+    "address": "0x22D0E8128B394A46517F8e540be2e8F05E9BD8d2",
+    "role": 5,
+    "name": "Drug Control Officer",
+    "location": "New Delhi"
+  },
+  {
+    "address": "0xC544E5ee9829C8E10247343b026FeBf04320c130",
+    "role": 5,
+    "name": "Health Inspector",
+    "location": "Mumbai"
+  },
+  {
+    "address": "0x710a91E26754c126C3A1b8C0E0c5b06568d85493",
+    "role": 5,
+    "name": "ScannerContract",
+    "location": "System"
+  }
+]

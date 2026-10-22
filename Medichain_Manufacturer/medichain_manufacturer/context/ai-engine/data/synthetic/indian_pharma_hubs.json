@@ -1,0 +1,527 @@
+{
+  "metadata": {
+    "description": "Indian pharmaceutical hub reference data for geographic heatmap context",
+    "version": "1.0.0",
+    "sources": [
+      "CDSCO (Central Drugs Standard Control Organisation) public alerts",
+      "Department of Pharmaceuticals, Government of India",
+      "Indian Pharmaceutical Alliance (IPA) reports"
+    ],
+    "last_updated": "2025-01-15",
+    "coordinate_system": "WGS84"
+  },
+
+  "manufacturing_hubs": [
+    {
+      "name": "Hyderabad Bulk Drug Capital",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "lat": 17.3850,
+      "lng": 78.4867,
+      "type": "manufacturing",
+      "subtype": "bulk_drug_and_formulation",
+      "major_companies": [
+        "Dr. Reddy's Laboratories",
+        "Aurobindo Pharma",
+        "Hetero Drugs",
+        "Natco Pharma",
+        "Laurus Labs",
+        "Granules India",
+        "Shilpa Medicare"
+      ],
+      "specialization": "Active Pharmaceutical Ingredients (APIs), bulk drugs, generic formulations",
+      "notes": "Largest bulk drug manufacturing cluster in India. Genome Valley and Pharma City are key zones."
+    },
+    {
+      "name": "Baddi-Barotiwala-Nalagarh Pharma Cluster",
+      "city": "Baddi",
+      "state": "Himachal Pradesh",
+      "lat": 30.9578,
+      "lng": 76.7914,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Cipla",
+        "Cadila Healthcare (Zydus)",
+        "Mankind Pharma",
+        "Morepen Laboratories",
+        "Sun Pharmaceutical Industries",
+        "Intas Pharmaceuticals"
+      ],
+      "specialization": "Finished dosage formulations, tablets, capsules, syrups",
+      "notes": "One of Asia's largest pharma manufacturing clusters. Over 500 pharma units operate in this region, originally attracted by tax incentives."
+    },
+    {
+      "name": "Ahmedabad Pharma Hub",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "lat": 23.0225,
+      "lng": 72.5714,
+      "type": "manufacturing",
+      "subtype": "formulation_and_api",
+      "major_companies": [
+        "Zydus Lifesciences",
+        "Torrent Pharmaceuticals",
+        "Intas Pharmaceuticals",
+        "Sun Pharmaceutical Industries",
+        "Claris Lifesciences"
+      ],
+      "specialization": "Formulations, injectables, APIs, biopharmaceuticals",
+      "notes": "Gujarat accounts for roughly 33% of India's pharmaceutical production. Ahmedabad is the primary hub."
+    },
+    {
+      "name": "Mumbai Pharmaceutical Corridor",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "lat": 19.0760,
+      "lng": 72.8777,
+      "type": "manufacturing",
+      "subtype": "formulation_and_corporate_hq",
+      "major_companies": [
+        "Sun Pharmaceutical Industries",
+        "Cipla",
+        "Glenmark Pharmaceuticals",
+        "Lupin Limited",
+        "Wockhardt",
+        "Abbott India",
+        "Pfizer India"
+      ],
+      "specialization": "Corporate headquarters, R&D centers, specialty formulations",
+      "notes": "India's pharma business capital. Major corporate HQs and R&D facilities. Tarapur and Ankleshwar nearby for manufacturing."
+    },
+    {
+      "name": "Indore Pharma Zone",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "lat": 22.7196,
+      "lng": 75.8577,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Ipca Laboratories",
+        "Lupin Limited",
+        "Glenmark Pharmaceuticals",
+        "Mylan (Viatris)"
+      ],
+      "specialization": "Anti-malarial drugs, general formulations, APIs",
+      "notes": "Pithampur industrial area near Indore hosts significant pharma manufacturing. Ipca is a major anti-malarial API producer."
+    },
+    {
+      "name": "Chennai Pharma Cluster",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "type": "manufacturing",
+      "subtype": "formulation_and_api",
+      "major_companies": [
+        "Sanofi India",
+        "Orchid Pharma",
+        "Strides Pharma",
+        "Pfizer India",
+        "Kavin Healthcare"
+      ],
+      "specialization": "Sterile injectables, cephalosporins, contract manufacturing",
+      "notes": "Strong export-oriented manufacturing base. TIDCO pharma park supports the cluster."
+    },
+    {
+      "name": "Sikkim Pharma Hub",
+      "city": "Gangtok",
+      "state": "Sikkim",
+      "lat": 27.3389,
+      "lng": 88.6065,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Sun Pharmaceutical Industries",
+        "Cipla",
+        "Zydus Lifesciences",
+        "Alkem Laboratories",
+        "Unichem Laboratories",
+        "IPCA Laboratories"
+      ],
+      "specialization": "Tablets, capsules, oral liquid dosage forms",
+      "notes": "Over 30 pharma units set up due to industrial tax exemptions under North East Industrial Policy. Primarily in Kumrek and Rangpo."
+    },
+    {
+      "name": "Visakhapatnam Pharma SEZ",
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "lat": 17.6868,
+      "lng": 83.2185,
+      "type": "manufacturing",
+      "subtype": "api_and_formulation",
+      "major_companies": [
+        "Mylan (Viatris)",
+        "Aurobindo Pharma",
+        "Divis Laboratories",
+        "Eisai Pharmaceuticals"
+      ],
+      "specialization": "APIs, bulk drugs, export-oriented units",
+      "notes": "JNPC (Jawaharlal Nehru Pharma City) is a dedicated pharma SEZ with integrated effluent treatment."
+    },
+    {
+      "name": "Bengaluru Biopharma Hub",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "type": "manufacturing",
+      "subtype": "biopharma_and_rd",
+      "major_companies": [
+        "Biocon",
+        "Strides Pharma",
+        "Micro Labs",
+        "AstraZeneca India",
+        "Jubilant Biosys"
+      ],
+      "specialization": "Biopharmaceuticals, biosimilars, R&D, clinical research",
+      "notes": "India's biotech capital. Hosts the largest number of USFDA-approved biopharma facilities."
+    },
+    {
+      "name": "Goa Pharma Manufacturing Zone",
+      "city": "Goa",
+      "state": "Goa",
+      "lat": 15.4909,
+      "lng": 73.8278,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Sanofi India",
+        "Aventis Pharma",
+        "Glenmark Pharmaceuticals",
+        "Unichem Laboratories"
+      ],
+      "specialization": "Formulations, export-oriented units",
+      "notes": "Pilerne and Verna industrial estates house major pharma plants."
+    },
+    {
+      "name": "Haridwar-Roorkee Pharma Belt",
+      "city": "Haridwar",
+      "state": "Uttarakhand",
+      "lat": 29.9457,
+      "lng": 78.1642,
+      "type": "manufacturing",
+      "subtype": "formulation",
+      "major_companies": [
+        "Dabur",
+        "Patanjali Ayurved",
+        "Mankind Pharma",
+        "Alkem Laboratories"
+      ],
+      "specialization": "FMCG pharma, ayurvedic formulations, OTC products",
+      "notes": "SIDCUL industrial estate hosts pharma and FMCG manufacturing. Growth driven by state tax incentives."
+    },
+    {
+      "name": "Ankleshwar-Vadodara Chemical-Pharma Corridor",
+      "city": "Ankleshwar",
+      "state": "Gujarat",
+      "lat": 21.6264,
+      "lng": 73.0153,
+      "type": "manufacturing",
+      "subtype": "api_and_intermediates",
+      "major_companies": [
+        "Alembic Pharmaceuticals",
+        "Sun Pharma Advanced Research",
+        "Aarti Industries"
+      ],
+      "specialization": "Pharmaceutical intermediates, APIs, chemical synthesis",
+      "notes": "Part of the Gujarat industrial corridor. Strong chemical-to-pharma integration."
+    }
+  ],
+
+  "distribution_hubs": [
+    {
+      "name": "Delhi Pharma Distribution Hub",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.6139,
+      "lng": 77.2090,
+      "type": "distribution",
+      "subtype": "wholesale_and_retail",
+      "key_markets": [
+        "Bhagirath Palace (Asia's largest pharmaceutical market)",
+        "Chandni Chowk wholesale market",
+        "Okhla pharmaceutical distribution zone"
+      ],
+      "notes": "Bhagirath Palace is the single largest pharma wholesale market in Asia, handling an estimated 60% of North India's drug distribution."
+    },
+    {
+      "name": "Mumbai Drug Distribution Network",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "lat": 18.9667,
+      "lng": 72.8333,
+      "type": "distribution",
+      "subtype": "wholesale_and_export",
+      "key_markets": [
+        "Princess Street pharmaceutical market",
+        "Crawford Market area",
+        "JNPT (Jawaharlal Nehru Port Trust) for pharma exports"
+      ],
+      "notes": "Major pharma export hub. JNPT handles significant pharmaceutical cargo. C&F agent networks radiate from Mumbai."
+    },
+    {
+      "name": "Kolkata Eastern Distribution Hub",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Burrabazar pharmaceutical wholesale market",
+        "Bagree Market"
+      ],
+      "notes": "Primary distribution hub for Eastern India and North-East states. Gateway for cross-border trade with Bangladesh, Nepal, and Bhutan."
+    },
+    {
+      "name": "Chennai Southern Distribution Center",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "lat": 13.0569,
+      "lng": 80.2425,
+      "type": "distribution",
+      "subtype": "wholesale_and_export",
+      "key_markets": [
+        "Thambuchetty Street pharma market",
+        "Parry's Corner wholesale zone",
+        "Chennai Port for pharma exports"
+      ],
+      "notes": "Key distribution center for South India. Major pharma export terminal."
+    },
+    {
+      "name": "Ahmedabad Western Distribution Hub",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "lat": 23.0300,
+      "lng": 72.5800,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Kalupur pharma wholesale market",
+        "Sarangpur distribution area"
+      ],
+      "notes": "Serves as the primary redistribution hub for Gujarat's pharma manufacturing output."
+    },
+    {
+      "name": "Lucknow UP Distribution Center",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "lat": 26.8467,
+      "lng": 80.9462,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Aminabad pharma market",
+        "Chowk wholesale area"
+      ],
+      "notes": "Central distribution point for Uttar Pradesh, India's most populous state and a major pharma consumption market."
+    },
+    {
+      "name": "Nagpur Central India Hub",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1458,
+      "lng": 79.0882,
+      "type": "distribution",
+      "subtype": "redistribution",
+      "key_markets": [
+        "Itwari wholesale market",
+        "Gandhibagh distribution zone"
+      ],
+      "notes": "Geographic center of India. Serves as a redistribution hub for Central Indian states."
+    },
+    {
+      "name": "Patna Bihar Distribution Hub",
+      "city": "Patna",
+      "state": "Bihar",
+      "lat": 25.6093,
+      "lng": 85.1376,
+      "type": "distribution",
+      "subtype": "wholesale",
+      "key_markets": [
+        "Govind Mitra Road pharma market"
+      ],
+      "notes": "Serves Bihar and parts of Jharkhand. Identified in multiple CDSCO reports as requiring enhanced supply chain surveillance."
+    }
+  ],
+
+  "known_hotspots": [
+    {
+      "name": "Bhagirath Palace Counterfeit Risk Zone",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.6562,
+      "lng": 77.2310,
+      "risk_level": "high",
+      "type": "distribution_counterfeit",
+      "notes": "Repeatedly flagged by CDSCO and WHO as a source point for spurious and not-of-standard-quality (NSQ) drugs. Sheer volume of trade makes monitoring difficult. Multiple raids have uncovered counterfeit medicine operations."
+    },
+    {
+      "name": "Agra-Mathura Spurious Drug Belt",
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "lat": 27.1767,
+      "lng": 78.0081,
+      "risk_level": "high",
+      "type": "manufacturing_counterfeit",
+      "notes": "Multiple CDSCO enforcement actions against unlicensed manufacturing units producing spurious medicines. Fake antibiotic and analgesic production reported."
+    },
+    {
+      "name": "Kanpur Counterfeit Manufacturing Zone",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "lat": 26.4499,
+      "lng": 80.3319,
+      "risk_level": "high",
+      "type": "manufacturing_counterfeit",
+      "notes": "Multiple raids by state drug authorities uncovering fake medicine manufacturing units. Spurious cough syrups and tablets seized in CDSCO operations."
+    },
+    {
+      "name": "Ghaziabad-Noida Pharma Grey Market",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "lat": 28.6692,
+      "lng": 77.4538,
+      "risk_level": "high",
+      "type": "distribution_counterfeit",
+      "notes": "Proximity to Delhi wholesale markets enables grey market pharma distribution. CDSCO alerts have identified unlicensed wholesale operations."
+    },
+    {
+      "name": "Jammu Pharma Cross-Border Risk Zone",
+      "city": "Jammu",
+      "state": "Jammu & Kashmir",
+      "lat": 32.7266,
+      "lng": 74.8570,
+      "risk_level": "medium",
+      "type": "cross_border_counterfeit",
+      "notes": "Cross-border smuggling of unregistered pharmaceutical products reported. Supply chain integrity compromised in remote areas."
+    },
+    {
+      "name": "Indore-Dewas NSQ Drug Zone",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "lat": 22.7196,
+      "lng": 75.8577,
+      "risk_level": "medium",
+      "type": "manufacturing_nsq",
+      "notes": "CDSCO monthly alerts have listed manufacturers in this region for Not of Standard Quality (NSQ) drugs, particularly in anti-infective and analgesic categories."
+    },
+    {
+      "name": "Chhattisgarh Rural Supply Chain Vulnerability",
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "lat": 21.2514,
+      "lng": 81.6296,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Remote and tribal areas face supply chain gaps exploited by spurious drug distributors. State drug testing lab capacity reported as insufficient."
+    },
+    {
+      "name": "Bihar Counterfeit Distribution Network",
+      "city": "Patna",
+      "state": "Bihar",
+      "lat": 25.6093,
+      "lng": 85.1376,
+      "risk_level": "high",
+      "type": "distribution_counterfeit",
+      "notes": "Weak regulatory enforcement historically linked to high counterfeit drug prevalence. CDSCO joint raids have targeted spurious medicine networks in Patna and surrounding districts."
+    },
+    {
+      "name": "West Bengal Border Smuggling Corridor",
+      "city": "Siliguri",
+      "state": "West Bengal",
+      "lat": 26.7271,
+      "lng": 88.3953,
+      "risk_level": "medium",
+      "type": "cross_border_counterfeit",
+      "notes": "Chicken's Neck corridor near Nepal, Bhutan, and Bangladesh borders. Unregulated pharmaceutical imports and re-exports reported in CDSCO alerts."
+    },
+    {
+      "name": "Madhya Pradesh Rural Spurious Drug Spread",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "lat": 23.2599,
+      "lng": 77.4126,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Large rural population with limited access to licensed pharmacies. State drug surveys have found substandard medicines in remote district hospitals."
+    },
+    {
+      "name": "Punjab-Haryana Pharma Grey Belt",
+      "city": "Ambala",
+      "state": "Haryana",
+      "lat": 30.3782,
+      "lng": 76.7767,
+      "risk_level": "medium",
+      "type": "distribution_counterfeit",
+      "notes": "Proximity to Baddi manufacturing cluster creates opportunity for diversion of substandard products. CDSCO has flagged certain distributors in this corridor."
+    },
+    {
+      "name": "Rajasthan Western Border Vulnerability",
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "lat": 26.2389,
+      "lng": 73.0243,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Remote western districts face supply chain monitoring gaps. Cross-border pharmaceutical smuggling via Thar Desert corridor reported."
+    },
+    {
+      "name": "North-East India Supply Chain Gap",
+      "city": "Guwahati",
+      "state": "Assam",
+      "lat": 26.1445,
+      "lng": 91.7362,
+      "risk_level": "medium",
+      "type": "supply_chain_vulnerability",
+      "notes": "Connectivity challenges and limited state drug testing infrastructure. International borders with Myanmar and Bangladesh create counterfeit drug infiltration risk."
+    }
+  ],
+
+  "regulatory_bodies": [
+    {
+      "name": "Central Drugs Standard Control Organisation (CDSCO)",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.6280,
+      "lng": 77.2175,
+      "role": "National drug regulatory authority. Publishes monthly NSQ and spurious drug alerts.",
+      "website": "https://cdsco.gov.in"
+    },
+    {
+      "name": "National Pharmaceutical Pricing Authority (NPPA)",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.6145,
+      "lng": 77.2090,
+      "role": "Price regulation and monitoring. Tracks pricing anomalies that may indicate counterfeits.",
+      "website": "https://nppaindia.nic.in"
+    },
+    {
+      "name": "Indian Pharmacopoeia Commission (IPC)",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "lat": 28.6692,
+      "lng": 77.4538,
+      "role": "Sets drug quality standards. Operates the Pharmacovigilance Programme of India (PvPI).",
+      "website": "https://ipc.gov.in"
+    }
+  ],
+
+  "pharma_clusters_summary": {
+    "total_manufacturing_hubs": 12,
+    "total_distribution_hubs": 8,
+    "total_known_hotspots": 13,
+    "top_manufacturing_states": [
+      {"state": "Gujarat", "share_of_national_production_pct": 33},
+      {"state": "Maharashtra", "share_of_national_production_pct": 18},
+      {"state": "Telangana", "share_of_national_production_pct": 14},
+      {"state": "Karnataka", "share_of_national_production_pct": 8},
+      {"state": "Himachal Pradesh", "share_of_national_production_pct": 7},
+      {"state": "Tamil Nadu", "share_of_national_production_pct": 6}
+    ],
+    "notes": "India is the world's largest provider of generic drugs, supplying approximately 20% of global generic medicine by volume. The country has over 3,000 pharma companies with more than 10,500 manufacturing units."
+  }
+}

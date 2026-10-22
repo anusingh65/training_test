@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0A0F1A;
+  --foreground: #F8FAFC;
+  --surface: #1E293B;
+  --accent: #2563EB;
+  --muted: #94A3B8;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+/* Leaflet overrides for dark theme */
+.leaflet-container {
+  background: #0A0F1A;
+  border-radius: 12px;
+}
+.leaflet-control-zoom a {
+  background: #1E293B !important;
+  color: #F8FAFC !important;
+  border-color: #334155 !important;
+}
+.leaflet-popup-content-wrapper {
+  background: #1E293B !important;
+  color: #F8FAFC !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+}
+.leaflet-popup-tip {
+  background: #1E293B !important;
+}
+.leaflet-tooltip.route-tooltip {
+  background: rgba(10, 15, 26, 0.9) !important;
+  color: #F8FAFC !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 6px !important;
+  padding: 2px 6px !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+.leaflet-tooltip.route-tooltip::before {
+  border-top-color: rgba(10, 15, 26, 0.9) !important;
+}

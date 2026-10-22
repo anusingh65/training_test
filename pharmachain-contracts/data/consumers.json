@@ -1,0 +1,50 @@
+[
+  {
+    "address": "0xeb95b0404F13584CD0Bf6FCda547f78f95ff6789",
+    "role": 4,
+    "name": "Ravi Kumar",
+    "location": "Mumbai"
+  },
+  {
+    "address": "0x0623fF526181a8F932D9F296f5Edce5009892268",
+    "role": 4,
+    "name": "Priya Sharma",
+    "location": "Delhi"
+  },
+  {
+    "address": "0xC8ed6d2Ce37d7de84d8d2Cf8C4e95608Ebd578cB",
+    "role": 4,
+    "name": "Amit Patel",
+    "location": "Ahmedabad"
+  },
+  {
+    "address": "0xc31eAdd2388Fa2B88ED02EdC88b29C526219C26e",
+    "role": 4,
+    "name": "Sneha Gupta",
+    "location": "Bangalore"
+  },
+  {
+    "address": "0x997EB21D9c9dF87B3020da961845bF48E5e3C543",
+    "role": 4,
+    "name": "Rahul Verma",
+    "location": "Hyderabad"
+  },
+  {
+    "address": "0x2a5867ce6cF04aBe665833C7168000430569AF6e",
+    "role": 4,
+    "name": "Vikram Singh",
+    "location": "Jaipur"
+  },
+  {
+    "address": "0x3c6277F0cAE3c673f6E2BB233C82716036244449",
+    "role": 4,
+    "name": "Anjali Nair",
+    "location": "Kochi"
+  },
+  {
+    "address": "0x77702eF65fA0A50427d889602f7796053DF1710C",
+    "role": 4,
+    "name": "Arjun Reddy",
+    "location": "Chennai"
+  }
+]
